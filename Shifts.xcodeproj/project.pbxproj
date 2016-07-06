@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942FCA301A390771007A3886 /* DatePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */; };
+		9460110C1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 946010FE1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m */; };
+		9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011011A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m */; };
+		9460110E1A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011031A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m */; };
+		9460110F1A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011051A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m */; };
+		946011101A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011071A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.m */; };
+		946011111A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011091A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.m */; };
+		946011121A1EA9C20007E9F6 /* RSDFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460110B1A1EA9C20007E9F6 /* RSDFDatePickerView.m */; };
+		947F991A1A1DC87600C55B30 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F99191A1DC87600C55B30 /* NavigationViewController.swift */; };
+		9493A9821A2BF5B30057022C /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493A9811A2BF5B30057022C /* DayCell.swift */; };
+		94978C651A672EAD00FA7CBA /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */; };
+		94978C691A67337800FA7CBA /* AddToCalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94978C681A67337800FA7CBA /* AddToCalendarTableViewController.m */; };
+		94978C6B1A6733F200FA7CBA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94978C6A1A6733F200FA7CBA /* MainViewController.swift */; };
+		94978C6E1A6738CD00FA7CBA /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 94978C6D1A6738CD00FA7CBA /* Event.m */; };
 		94B41DE219F45BDF00544CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B41DE119F45BDF00544CD9 /* AppDelegate.swift */; };
-		94B41DE419F45BDF00544CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B41DE319F45BDF00544CD9 /* ViewController.swift */; };
 		94B41DE719F45BDF00544CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DE519F45BDF00544CD9 /* Main.storyboard */; };
 		94B41DE919F45BDF00544CD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DE819F45BDF00544CD9 /* Images.xcassets */; };
 		94B41DEC19F45BDF00544CD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DEA19F45BDF00544CD9 /* LaunchScreen.xib */; };
 		94B41DF819F45BDF00544CD9 /* ShiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B41DF719F45BDF00544CD9 /* ShiftsTests.swift */; };
+		94C0F48D1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */; };
+		94C0F4911ACCB63E00E9F26A /* Blue UI Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */; };
+		94D90C981ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D90C971ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png */; };
+		94F678921A9ECA7D009E588D /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9444716B1B519D3200FD3335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B41DD419F45BDF00544CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B41DDB19F45BDF00544CD9;
+			remoteInfo = Shifts;
+		};
 		94B41DF219F45BDF00544CD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94B41DD419F45BDF00544CD9 /* Project object */;
@@ -26,19 +50,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
+		944471651B519D3200FD3335 /* Shifts Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shifts Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944471681B519D3200FD3335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946010FD1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+RSDFAdditions.h"; sourceTree = "<group>"; };
+		946010FE1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+RSDFAdditions.m"; sourceTree = "<group>"; };
+		946010FF1A1EA9C20007E9F6 /* RSDayFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDayFlow.h; sourceTree = "<group>"; };
+		946011001A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerCollectionView.h; sourceTree = "<group>"; };
+		946011011A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerCollectionView.m; sourceTree = "<group>"; };
+		946011021A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerCollectionViewLayout.h; sourceTree = "<group>"; };
+		946011031A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerCollectionViewLayout.m; sourceTree = "<group>"; };
+		946011041A1EA9C20007E9F6 /* RSDFDatePickerDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerDayCell.h; sourceTree = "<group>"; };
+		946011051A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerDayCell.m; sourceTree = "<group>"; };
+		946011061A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerDaysOfWeekView.h; sourceTree = "<group>"; };
+		946011071A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerDaysOfWeekView.m; sourceTree = "<group>"; };
+		946011081A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerMonthHeader.h; sourceTree = "<group>"; };
+		946011091A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerMonthHeader.m; sourceTree = "<group>"; };
+		9460110A1A1EA9C20007E9F6 /* RSDFDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerView.h; sourceTree = "<group>"; };
+		9460110B1A1EA9C20007E9F6 /* RSDFDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerView.m; sourceTree = "<group>"; };
+		946011131A1EAAC30007E9F6 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		947F99191A1DC87600C55B30 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = ../NavigationViewController.swift; sourceTree = "<group>"; };
+		9493A9811A2BF5B30057022C /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayCell.swift; path = ../DayCell.swift; sourceTree = "<group>"; };
+		94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayPickerViewController.swift; path = ../DayPickerViewController.swift; sourceTree = "<group>"; };
+		94978C671A67337800FA7CBA /* AddToCalendarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToCalendarTableViewController.h; sourceTree = "<group>"; };
+		94978C681A67337800FA7CBA /* AddToCalendarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToCalendarTableViewController.m; sourceTree = "<group>"; };
+		94978C6A1A6733F200FA7CBA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		94978C6C1A6738CD00FA7CBA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		94978C6D1A6738CD00FA7CBA /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		94B41DDC19F45BDF00544CD9 /* Shifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B41DE019F45BDF00544CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B41DE119F45BDF00544CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94B41DE319F45BDF00544CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94B41DE619F45BDF00544CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94B41DE819F45BDF00544CD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94B41DEB19F45BDF00544CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		94B41DF119F45BDF00544CD9 /* ShiftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B41DF619F45BDF00544CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B41DF719F45BDF00544CD9 /* ShiftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsTests.swift; sourceTree = "<group>"; };
+		94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shifts App Icon - iPhone 5 and 6.png"; sourceTree = "<group>"; };
+		94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue UI Button.png"; sourceTree = "<group>"; };
+		94D90C971ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Shifts App Icon - iPhone 5 and 6 Two colors.png"; path = "Shifts/Shifts App Icon - iPhone 5 and 6 Two colors.png"; sourceTree = "<group>"; };
+		94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		944471621B519D3200FD3335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94B41DD919F45BDF00544CD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,12 +117,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		944471661B519D3200FD3335 /* Shifts Tests */ = {
+			isa = PBXGroup;
+			children = (
+				944471671B519D3200FD3335 /* Supporting Files */,
+			);
+			path = "Shifts Tests";
+			sourceTree = "<group>";
+		};
+		944471671B519D3200FD3335 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944471681B519D3200FD3335 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		946010FC1A1EA9C20007E9F6 /* RSDayFlow */ = {
+			isa = PBXGroup;
+			children = (
+				946010FD1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.h */,
+				946010FE1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m */,
+				946010FF1A1EA9C20007E9F6 /* RSDayFlow.h */,
+				946011001A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.h */,
+				946011011A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m */,
+				946011021A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.h */,
+				946011031A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m */,
+				942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */,
+				946011041A1EA9C20007E9F6 /* RSDFDatePickerDayCell.h */,
+				946011051A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m */,
+				946011061A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.h */,
+				946011071A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.m */,
+				946011081A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.h */,
+				946011091A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.m */,
+				9460110A1A1EA9C20007E9F6 /* RSDFDatePickerView.h */,
+				9460110B1A1EA9C20007E9F6 /* RSDFDatePickerView.m */,
+			);
+			path = RSDayFlow;
+			sourceTree = "<group>";
+		};
+		94978C661A67336600FA7CBA /* From 'Events' */ = {
+			isa = PBXGroup;
+			children = (
+				94978C6C1A6738CD00FA7CBA /* Event.h */,
+				94978C6D1A6738CD00FA7CBA /* Event.m */,
+				94978C671A67337800FA7CBA /* AddToCalendarTableViewController.h */,
+				94978C681A67337800FA7CBA /* AddToCalendarTableViewController.m */,
+			);
+			name = "From 'Events'";
+			sourceTree = "<group>";
+		};
 		94B41DD319F45BDF00544CD9 = {
 			isa = PBXGroup;
 			children = (
 				94B41DDE19F45BDF00544CD9 /* Shifts */,
 				94B41DF419F45BDF00544CD9 /* ShiftsTests */,
+				944471661B519D3200FD3335 /* Shifts Tests */,
 				94B41DDD19F45BDF00544CD9 /* Products */,
+				94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */,
+				94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */,
+				94D90C971ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +185,7 @@
 			children = (
 				94B41DDC19F45BDF00544CD9 /* Shifts.app */,
 				94B41DF119F45BDF00544CD9 /* ShiftsTests.xctest */,
+				944471651B519D3200FD3335 /* Shifts Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +193,14 @@
 		94B41DDE19F45BDF00544CD9 /* Shifts */ = {
 			isa = PBXGroup;
 			children = (
-				94B41DE119F45BDF00544CD9 /* AppDelegate.swift */,
-				94B41DE319F45BDF00544CD9 /* ViewController.swift */,
 				94B41DE519F45BDF00544CD9 /* Main.storyboard */,
+				94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */,
+				94978C6A1A6733F200FA7CBA /* MainViewController.swift */,
+				947F99191A1DC87600C55B30 /* NavigationViewController.swift */,
+				94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */,
+				94B41DE119F45BDF00544CD9 /* AppDelegate.swift */,
+				9493A9811A2BF5B30057022C /* DayCell.swift */,
+				946011131A1EAAC30007E9F6 /* BridgingHeader.h */,
 				94B41DE819F45BDF00544CD9 /* Images.xcassets */,
 				94B41DEA19F45BDF00544CD9 /* LaunchScreen.xib */,
 				94B41DDF19F45BDF00544CD9 /* Supporting Files */,
@@ -90,6 +211,8 @@
 		94B41DDF19F45BDF00544CD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94978C661A67336600FA7CBA /* From 'Events' */,
+				946010FC1A1EA9C20007E9F6 /* RSDayFlow */,
 				94B41DE019F45BDF00544CD9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,6 +238,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		944471641B519D3200FD3335 /* Shifts Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9444716F1B519D3200FD3335 /* Build configuration list for PBXNativeTarget "Shifts Tests" */;
+			buildPhases = (
+				944471611B519D3200FD3335 /* Sources */,
+				944471621B519D3200FD3335 /* Frameworks */,
+				944471631B519D3200FD3335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9444716C1B519D3200FD3335 /* PBXTargetDependency */,
+			);
+			name = "Shifts Tests";
+			productName = "Shifts Tests";
+			productReference = 944471651B519D3200FD3335 /* Shifts Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		94B41DDB19F45BDF00544CD9 /* Shifts */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B41DFB19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "Shifts" */;
@@ -156,11 +297,18 @@
 		94B41DD419F45BDF00544CD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Full Screen Ahead";
 				TargetAttributes = {
+					944471641B519D3200FD3335 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 94B41DDB19F45BDF00544CD9;
+					};
 					94B41DDB19F45BDF00544CD9 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = DJM86A6U7U;
 					};
 					94B41DF019F45BDF00544CD9 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -183,17 +331,28 @@
 			targets = (
 				94B41DDB19F45BDF00544CD9 /* Shifts */,
 				94B41DF019F45BDF00544CD9 /* ShiftsTests */,
+				944471641B519D3200FD3335 /* Shifts Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		944471631B519D3200FD3335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94B41DDA19F45BDF00544CD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C0F48D1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png in Resources */,
 				94B41DE719F45BDF00544CD9 /* Main.storyboard in Resources */,
 				94B41DEC19F45BDF00544CD9 /* LaunchScreen.xib in Resources */,
+				94D90C981ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png in Resources */,
+				94C0F4911ACCB63E00E9F26A /* Blue UI Button.png in Resources */,
 				94B41DE919F45BDF00544CD9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,12 +367,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		944471611B519D3200FD3335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94B41DD819F45BDF00544CD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B41DE419F45BDF00544CD9 /* ViewController.swift in Sources */,
+				947F991A1A1DC87600C55B30 /* NavigationViewController.swift in Sources */,
+				946011101A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.m in Sources */,
+				9460110C1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m in Sources */,
 				94B41DE219F45BDF00544CD9 /* AppDelegate.swift in Sources */,
+				946011111A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.m in Sources */,
+				946011121A1EA9C20007E9F6 /* RSDFDatePickerView.m in Sources */,
+				94F678921A9ECA7D009E588D /* ConfirmationViewController.swift in Sources */,
+				942FCA301A390771007A3886 /* DatePickerCollectionViewLayout.swift in Sources */,
+				94978C6B1A6733F200FA7CBA /* MainViewController.swift in Sources */,
+				9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */,
+				9460110E1A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m in Sources */,
+				9460110F1A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m in Sources */,
+				94978C691A67337800FA7CBA /* AddToCalendarTableViewController.m in Sources */,
+				94978C6E1A6738CD00FA7CBA /* Event.m in Sources */,
+				9493A9821A2BF5B30057022C /* DayCell.swift in Sources */,
+				94978C651A672EAD00FA7CBA /* DayPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +408,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9444716C1B519D3200FD3335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B41DDB19F45BDF00544CD9 /* Shifts */;
+			targetProxy = 9444716B1B519D3200FD3335 /* PBXContainerItemProxy */;
+		};
 		94B41DF319F45BDF00544CD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 94B41DDB19F45BDF00544CD9 /* Shifts */;
@@ -255,6 +440,41 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9444716D1B519D3200FD3335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shifts Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryancortez.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifts.app/Shifts";
+			};
+			name = Debug;
+		};
+		9444716E1B519D3200FD3335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Shifts Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryancortez.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifts.app/Shifts";
+			};
+			name = Release;
+		};
 		94B41DF919F45BDF00544CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -275,6 +495,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -336,9 +557,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Shifts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FullScreenAhead.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Shifts/BridgingHeader.h;
 			};
 			name = Debug;
 		};
@@ -346,9 +572,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Shifts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FullScreenAhead.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Shifts/BridgingHeader.h;
 			};
 			name = Release;
 		};
@@ -356,16 +587,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ShiftsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FullScreenAhead.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifts.app/Shifts";
 			};
@@ -375,12 +603,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = ShiftsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FullScreenAhead.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifts.app/Shifts";
 			};
@@ -389,6 +614,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9444716F1B519D3200FD3335 /* Build configuration list for PBXNativeTarget "Shifts Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9444716D1B519D3200FD3335 /* Debug */,
+				9444716E1B519D3200FD3335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		94B41DD719F45BDF00544CD9 /* Build configuration list for PBXProject "Shifts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -405,6 +639,7 @@
 				94B41DFD19F45BDF00544CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94B41DFE19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "ShiftsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +648,7 @@
 				94B41E0019F45BDF00544CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
