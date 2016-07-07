@@ -8,3 +8,9 @@
 
 import Foundation
 
+class StartHourViewController : TimeSelectionViewController {
+ 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+}

@@ -11,7 +11,7 @@
         <!--Starting Hour-->
         <scene sceneID="FRk-bb-it3">
             <objects>
-                <viewController title="Starting Hour" id="uz5-D7-gHs" customClass="TimeSelectionViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Starting Hour" id="uz5-D7-gHs" customClass="StartHourViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xZq-rb-4LI"/>
                         <viewControllerLayoutGuide type="bottom" id="c9a-oV-BDc"/>

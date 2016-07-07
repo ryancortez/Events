@@ -19,7 +19,7 @@
 		9493A9821A2BF5B30057022C /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493A9811A2BF5B30057022C /* DayCell.swift */; };
 		94978C651A672EAD00FA7CBA /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */; };
 		94978C691A67337800FA7CBA /* AddToCalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94978C681A67337800FA7CBA /* AddToCalendarTableViewController.m */; };
-		94978C6B1A6733F200FA7CBA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94978C6A1A6733F200FA7CBA /* MainViewController.swift */; };
+		94978C6B1A6733F200FA7CBA /* TimeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94978C6A1A6733F200FA7CBA /* TimeSelectionViewController.swift */; };
 		94978C6E1A6738CD00FA7CBA /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 94978C6D1A6738CD00FA7CBA /* Event.m */; };
 		94B41DE219F45BDF00544CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B41DE119F45BDF00544CD9 /* AppDelegate.swift */; };
 		94B41DE719F45BDF00544CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DE519F45BDF00544CD9 /* Main.storyboard */; };
@@ -80,7 +80,7 @@
 		94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayPickerViewController.swift; path = ../DayPickerViewController.swift; sourceTree = "<group>"; };
 		94978C671A67337800FA7CBA /* AddToCalendarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToCalendarTableViewController.h; sourceTree = "<group>"; };
 		94978C681A67337800FA7CBA /* AddToCalendarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToCalendarTableViewController.m; sourceTree = "<group>"; };
-		94978C6A1A6733F200FA7CBA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		94978C6A1A6733F200FA7CBA /* TimeSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelectionViewController.swift; sourceTree = "<group>"; };
 		94978C6C1A6738CD00FA7CBA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		94978C6D1A6738CD00FA7CBA /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		94B41DDC19F45BDF00544CD9 /* Shifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,7 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				94E6869E1D2E9D380088AF9D /* Time Selection */,
-				94978C6A1A6733F200FA7CBA /* MainViewController.swift */,
 				94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */,
 				947F99191A1DC87600C55B30 /* NavigationViewController.swift */,
 				94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */,
@@ -283,6 +282,7 @@
 		94E6869E1D2E9D380088AF9D /* Time Selection */ = {
 			isa = PBXGroup;
 			children = (
+				94978C6A1A6733F200FA7CBA /* TimeSelectionViewController.swift */,
 				94E6869C1D2E9D2C0088AF9D /* StartHourViewController.swift */,
 				94E6869F1D2E9D640088AF9D /* StartMinuteViewController.swift */,
 				94E686A11D2E9D760088AF9D /* StartAbbreviationView.swift */,
@@ -446,7 +446,7 @@
 				94E686A61D2E9D990088AF9D /* EndingMinuteViewController.swift in Sources */,
 				94F678921A9ECA7D009E588D /* ConfirmationViewController.swift in Sources */,
 				942FCA301A390771007A3886 /* DatePickerCollectionViewLayout.swift in Sources */,
-				94978C6B1A6733F200FA7CBA /* MainViewController.swift in Sources */,
+				94978C6B1A6733F200FA7CBA /* TimeSelectionViewController.swift in Sources */,
 				94E6869D1D2E9D2C0088AF9D /* StartHourViewController.swift in Sources */,
 				9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */,
 				9460110E1A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m in Sources */,
