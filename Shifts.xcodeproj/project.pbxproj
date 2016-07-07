@@ -29,6 +29,12 @@
 		94C0F48D1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */; };
 		94C0F4911ACCB63E00E9F26A /* Blue UI Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */; };
 		94D90C981ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D90C971ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png */; };
+		94E6869D1D2E9D2C0088AF9D /* StartHourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6869C1D2E9D2C0088AF9D /* StartHourViewController.swift */; };
+		94E686A01D2E9D640088AF9D /* StartMinuteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6869F1D2E9D640088AF9D /* StartMinuteViewController.swift */; };
+		94E686A21D2E9D760088AF9D /* StartAbbreviationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E686A11D2E9D760088AF9D /* StartAbbreviationView.swift */; };
+		94E686A41D2E9D8D0088AF9D /* EndingHourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E686A31D2E9D8D0088AF9D /* EndingHourViewController.swift */; };
+		94E686A61D2E9D990088AF9D /* EndingMinuteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E686A51D2E9D990088AF9D /* EndingMinuteViewController.swift */; };
+		94E686A81D2E9DA70088AF9D /* EndingAbberviationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E686A71D2E9DA70088AF9D /* EndingAbberviationViewController.swift */; };
 		94F678921A9ECA7D009E588D /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +95,12 @@
 		94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shifts App Icon - iPhone 5 and 6.png"; sourceTree = "<group>"; };
 		94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue UI Button.png"; sourceTree = "<group>"; };
 		94D90C971ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Shifts App Icon - iPhone 5 and 6 Two colors.png"; path = "Shifts/Shifts App Icon - iPhone 5 and 6 Two colors.png"; sourceTree = "<group>"; };
+		94E6869C1D2E9D2C0088AF9D /* StartHourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartHourViewController.swift; sourceTree = "<group>"; };
+		94E6869F1D2E9D640088AF9D /* StartMinuteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartMinuteViewController.swift; sourceTree = "<group>"; };
+		94E686A11D2E9D760088AF9D /* StartAbbreviationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartAbbreviationView.swift; sourceTree = "<group>"; };
+		94E686A31D2E9D8D0088AF9D /* EndingHourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndingHourViewController.swift; sourceTree = "<group>"; };
+		94E686A51D2E9D990088AF9D /* EndingMinuteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndingMinuteViewController.swift; sourceTree = "<group>"; };
+		94E686A71D2E9DA70088AF9D /* EndingAbberviationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndingAbberviationViewController.swift; sourceTree = "<group>"; };
 		94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,16 +205,10 @@
 		94B41DDE19F45BDF00544CD9 /* Shifts */ = {
 			isa = PBXGroup;
 			children = (
-				94B41DE519F45BDF00544CD9 /* Main.storyboard */,
-				94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */,
-				94978C6A1A6733F200FA7CBA /* MainViewController.swift */,
-				947F99191A1DC87600C55B30 /* NavigationViewController.swift */,
-				94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */,
-				94B41DE119F45BDF00544CD9 /* AppDelegate.swift */,
-				9493A9811A2BF5B30057022C /* DayCell.swift */,
-				946011131A1EAAC30007E9F6 /* BridgingHeader.h */,
+				94E6869A1D2E9CAA0088AF9D /* Model */,
+				94E686991D2E9CA90088AF9D /* Controllers */,
+				94E686981D2E9CA70088AF9D /* Views */,
 				94B41DE819F45BDF00544CD9 /* Images.xcassets */,
-				94B41DEA19F45BDF00544CD9 /* LaunchScreen.xib */,
 				94B41DDF19F45BDF00544CD9 /* Supporting Files */,
 			);
 			path = Shifts;
@@ -211,6 +217,9 @@
 		94B41DDF19F45BDF00544CD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				946011131A1EAAC30007E9F6 /* BridgingHeader.h */,
+				94B41DEA19F45BDF00544CD9 /* LaunchScreen.xib */,
+				94B41DE119F45BDF00544CD9 /* AppDelegate.swift */,
 				94978C661A67336600FA7CBA /* From 'Events' */,
 				946010FC1A1EA9C20007E9F6 /* RSDayFlow */,
 				94B41DE019F45BDF00544CD9 /* Info.plist */,
@@ -233,6 +242,55 @@
 				94B41DF619F45BDF00544CD9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94E686981D2E9CA70088AF9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94B41DE519F45BDF00544CD9 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		94E686991D2E9CA90088AF9D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94E6869E1D2E9D380088AF9D /* Time Selection */,
+				94978C6A1A6733F200FA7CBA /* MainViewController.swift */,
+				94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */,
+				947F99191A1DC87600C55B30 /* NavigationViewController.swift */,
+				94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */,
+				94E6869B1D2E9CF10088AF9D /* Cells */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		94E6869A1D2E9CAA0088AF9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		94E6869B1D2E9CF10088AF9D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9493A9811A2BF5B30057022C /* DayCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		94E6869E1D2E9D380088AF9D /* Time Selection */ = {
+			isa = PBXGroup;
+			children = (
+				94E6869C1D2E9D2C0088AF9D /* StartHourViewController.swift */,
+				94E6869F1D2E9D640088AF9D /* StartMinuteViewController.swift */,
+				94E686A11D2E9D760088AF9D /* StartAbbreviationView.swift */,
+				94E686A31D2E9D8D0088AF9D /* EndingHourViewController.swift */,
+				94E686A51D2E9D990088AF9D /* EndingMinuteViewController.swift */,
+				94E686A71D2E9DA70088AF9D /* EndingAbberviationViewController.swift */,
+			);
+			name = "Time Selection";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,12 +439,15 @@
 				947F991A1A1DC87600C55B30 /* NavigationViewController.swift in Sources */,
 				946011101A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.m in Sources */,
 				9460110C1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m in Sources */,
+				94E686A41D2E9D8D0088AF9D /* EndingHourViewController.swift in Sources */,
 				94B41DE219F45BDF00544CD9 /* AppDelegate.swift in Sources */,
 				946011111A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.m in Sources */,
 				946011121A1EA9C20007E9F6 /* RSDFDatePickerView.m in Sources */,
+				94E686A61D2E9D990088AF9D /* EndingMinuteViewController.swift in Sources */,
 				94F678921A9ECA7D009E588D /* ConfirmationViewController.swift in Sources */,
 				942FCA301A390771007A3886 /* DatePickerCollectionViewLayout.swift in Sources */,
 				94978C6B1A6733F200FA7CBA /* MainViewController.swift in Sources */,
+				94E6869D1D2E9D2C0088AF9D /* StartHourViewController.swift in Sources */,
 				9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */,
 				9460110E1A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m in Sources */,
 				9460110F1A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m in Sources */,
@@ -394,6 +455,9 @@
 				94978C6E1A6738CD00FA7CBA /* Event.m in Sources */,
 				9493A9821A2BF5B30057022C /* DayCell.swift in Sources */,
 				94978C651A672EAD00FA7CBA /* DayPickerViewController.swift in Sources */,
+				94E686A01D2E9D640088AF9D /* StartMinuteViewController.swift in Sources */,
+				94E686A21D2E9D760088AF9D /* StartAbbreviationView.swift in Sources */,
+				94E686A81D2E9DA70088AF9D /* EndingAbberviationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
