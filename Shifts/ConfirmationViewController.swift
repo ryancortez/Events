@@ -24,6 +24,6 @@ class ConfirmationViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) { 
-        NSTimer.scheduledTimerWithTimeInterval(1.5, target: self, selector: #selector(ConfirmationViewController.startOver), userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: #selector(ConfirmationViewController.startOver), userInfo: nil, repeats: false)
     }
  }

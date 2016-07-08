@@ -323,6 +323,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         switch (myStartDate.compare(myEndDate)) {
         case NSComparisonResult.OrderedAscending:
             checkForCalendarAccess(myStartDate, endDate: myEndDate)
+            performSegueWithIdentifier("confirmationToSuccess", sender: sender)
         case NSComparisonResult.OrderedSame:
             performSegueWithIdentifier("confirmationToFailureForSame", sender: sender)
         case NSComparisonResult.OrderedDescending:
