@@ -374,7 +374,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94B41DD719F45BDF00544CD9 /* Build configuration list for PBXProject "Shifts" */;
+			buildConfigurationList = 94B41DD719F45BDF00544CD9 /* Build configuration list for PBXProject "Events" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -625,7 +625,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Shifts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FullScreenAhead.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryancortez.Events;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = Shifts/BridgingHeader.h;
@@ -640,7 +640,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Shifts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FullScreenAhead.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryancortez.Events;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = Shifts/BridgingHeader.h;
@@ -687,7 +687,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94B41DD719F45BDF00544CD9 /* Build configuration list for PBXProject "Shifts" */ = {
+		94B41DD719F45BDF00544CD9 /* Build configuration list for PBXProject "Events" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94B41DF919F45BDF00544CD9 /* Debug */,

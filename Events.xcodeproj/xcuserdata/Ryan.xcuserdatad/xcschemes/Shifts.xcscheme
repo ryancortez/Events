@@ -17,7 +17,7 @@
                BlueprintIdentifier = "94B41DDB19F45BDF00544CD9"
                BuildableName = "Shifts.app"
                BlueprintName = "Shifts"
-               ReferencedContainer = "container:Shifts.xcodeproj">
+               ReferencedContainer = "container:Events.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "94B41DF019F45BDF00544CD9"
                BuildableName = "ShiftsTests.xctest"
                BlueprintName = "ShiftsTests"
-               ReferencedContainer = "container:Shifts.xcodeproj">
+               ReferencedContainer = "container:Events.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "944471641B519D3200FD3335"
                BuildableName = "Shifts Tests.xctest"
                BlueprintName = "Shifts Tests"
-               ReferencedContainer = "container:Shifts.xcodeproj">
+               ReferencedContainer = "container:Events.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -63,7 +63,7 @@
                BlueprintIdentifier = "94B41DF019F45BDF00544CD9"
                BuildableName = "ShiftsTests.xctest"
                BlueprintName = "ShiftsTests"
-               ReferencedContainer = "container:Shifts.xcodeproj">
+               ReferencedContainer = "container:Events.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -73,7 +73,7 @@
                BlueprintIdentifier = "944471641B519D3200FD3335"
                BuildableName = "Shifts Tests.xctest"
                BlueprintName = "Shifts Tests"
-               ReferencedContainer = "container:Shifts.xcodeproj">
+               ReferencedContainer = "container:Events.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -83,7 +83,7 @@
             BlueprintIdentifier = "94B41DDB19F45BDF00544CD9"
             BuildableName = "Shifts.app"
             BlueprintName = "Shifts"
-            ReferencedContainer = "container:Shifts.xcodeproj">
+            ReferencedContainer = "container:Events.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -106,7 +106,7 @@
             BlueprintIdentifier = "94B41DDB19F45BDF00544CD9"
             BuildableName = "Shifts.app"
             BlueprintName = "Shifts"
-            ReferencedContainer = "container:Shifts.xcodeproj">
+            ReferencedContainer = "container:Events.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -125,7 +125,7 @@
             BlueprintIdentifier = "94B41DDB19F45BDF00544CD9"
             BuildableName = "Shifts.app"
             BlueprintName = "Shifts"
-            ReferencedContainer = "container:Shifts.xcodeproj">
+            ReferencedContainer = "container:Events.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
