@@ -226,11 +226,6 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         
         shiftInfo.startHour = aNumber
         
-        // Set the "Back" button to a blue color
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 0.31, green: 0.77, blue: 1.0, alpha: 1.0)
-        // Set the text to blink for the next selection
-        shiftInfo.blinkingText = "00"
-        
         // UIViewAnimationCurveLinear | UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat
         performSegueWithIdentifier("startingHourToStartingMinute", sender: sender)
         
@@ -244,21 +239,15 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         
         // Change the model by adding the button's title data
         shiftInfo.startMinute = aNumber
-        // Set the text to blink for the next selection
-        shiftInfo.blinkingText = "AM"
         blinkTextInLabel(startTimeLabel, withRange: NSMakeRange(3, 2))
-    
-        // Set the "Back" button to a blue color
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 0.31, green: 0.77, blue: 1.0, alpha: 1.0)
+        
         performSegueWithIdentifier("startMinuteToAbbreviation", sender: sender)
     }
     @IBAction func startAbbreviationButton(sender: AnyObject) {
         
         let buttonTitle = sender.currentTitle!
         shiftInfo.startAbbrev = buttonTitle!
-        
-        // Set the "Back" button to a blue color
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 0.31, green: 0.77, blue: 1.0, alpha: 1.0)
+
         performSegueWithIdentifier("abberviationToEndHour", sender: sender)
     }
     @IBAction func endingHourButton(sender: AnyObject) {
@@ -270,9 +259,6 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         let aNumber = formatter.numberFromString(buttonTitle!)
         
         shiftInfo.endHour = aNumber
-        
-        // Set the "Back" button to a green color
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 0.37, green: 0.93, blue: 0.53, alpha: 1.0)
         
         performSegueWithIdentifier("endHourToEndMinute", sender: sender)
     }
@@ -288,18 +274,12 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         
         shiftInfo.endMinute = aNumber
         
-        // Set the "Back" button to a green color
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 0.37, green: 0.93, blue: 0.53, alpha: 1.0)
-        
         performSegueWithIdentifier("endingMinuteToAbbreviation", sender: sender)
     }
     @IBAction func endingAbbrevationButton(sender: AnyObject) {
         
         let buttonTitle = sender.currentTitle!
         shiftInfo.endAbbrev = buttonTitle!
-        
-        // Set the "Back" button to a green color
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 0.37, green: 0.93, blue: 0.53, alpha: 1.0)
         
         performSegueWithIdentifier("abbreviationToConfirmation", sender: sender)
     }
@@ -348,14 +328,9 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         case NSComparisonResult.OrderedDescending:
             performSegueWithIdentifier("confirmationToFailureEndBeforeStart", sender: sender)
         }
-        
-        // Set the "Back" button to a blue color
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 0.31, green: 0.77, blue: 1.0, alpha: 0.0)
     }
     
     @IBAction func startOverButton(sender: AnyObject) {
-        // Set the "Back" button to a blue color
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 0.31, green: 0.77, blue: 1.0, alpha: 1.0)
         self.navigationController?.popToRootViewControllerAnimated(true)
     }
     

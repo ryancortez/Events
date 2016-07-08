@@ -13,6 +13,7 @@ class StartMinuteViewController : TimeSelectionViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         blinkTextInLabel(startTimeLabel, withRange: NSMakeRange(2, 2))
+        self.navigationController?.navigationBar.tintColor = customBlueColor
     }
 
 }

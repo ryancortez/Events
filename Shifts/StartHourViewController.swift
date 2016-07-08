@@ -13,5 +13,6 @@ class StartHourViewController : TimeSelectionViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         blinkTextInLabel(startTimeLabel, withRange: NSMakeRange(0, 1))
+        self.navigationController?.navigationBar.tintColor  = customBlueColor
     }
 }

@@ -12,5 +12,6 @@ class EndingMinuteViewController : TimeSelectionViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         blinkTextInLabel(endTimeLabel, withRange: NSMakeRange(2, 2))
+        self.navigationController?.navigationBar.tintColor = customGreenColor
     }
 }
