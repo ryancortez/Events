@@ -19,12 +19,16 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
     @IBOutlet var endTimeOutletCollection: [UIButton]!
     @IBOutlet weak var titleOutlet: UITextView!
     
-    
     let eventTitleKey = "Event Title"
     var eventTitleValue: AnyObject = "Default Title"
     var shiftInfo:Event = Event()
     var dateFromRSDF: NSDate?
     let calendar = NSCalendar(identifier: NSCalendarIdentifierGregorian)
+    
+    var blinkStatus: Bool = false
+    var timer: NSTimer = NSTimer()
+    var label: UILabel = UILabel()
+    var range: NSRange = NSRange()
     
     struct DatePickerDate {
         var year:Int
@@ -34,14 +38,20 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
     
     let customBlueColor = UIColor(red: 0.31, green: 0.77, blue: 1.0, alpha: 1.0)
     let customGreenColor = UIColor(red: 0.37, green: 0.93, blue: 0.53, alpha: 1.0)
-    let customLightGraycolor = UIColor(red: 0.69, green: 0.69, blue: 0.69, alpha: 1.0)
+    let customGraycolor = UIColor(red: 0.69, green: 0.69, blue: 0.69, alpha: 1.0)
+    let customLightGraycolor = UIColor(red: 0.69, green: 0.69, blue: 0.69, alpha: 0.4)
     
     override func viewWillAppear(animated: Bool) {
+        removeTimers()
         setTitleDelegate()
         setupButtons()
         refreshDayLabel()
         setDefaultStartTimeAndEndTimeLabels()
         refreshTimeLabels()
+    }
+    
+    func removeTimers() {
+        timer.invalidate()
     }
     
     func loadData() {
@@ -98,13 +108,30 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         print("Saved Settings.plist file is --> \(resultDictionary?.description)")
     }
     
-    func blinkTextInLabel (label: UILabel, withRange range: NSRange) {
-        if (label.text?.characters.count == 8) {
-            NSMakeRange(range.location + 1, range.length)
+    func blink() {
+        
+        if(blinkStatus == false){
+            let text = NSMutableAttributedString(attributedString: label.attributedText!)
+            text.addAttributes([NSForegroundColorAttributeName : customLightGraycolor], range: self.range)
+            UIView.animateWithDuration(1.5, animations: { self.label.attributedText = text  }, completion: {(value: Bool) in })
+            
+            
+            blinkStatus = true;
+        }else {
+            let text = NSMutableAttributedString(attributedString: label.attributedText!)
+            text.addAttributes([NSForegroundColorAttributeName : customGraycolor] , range: self.range)
+            UIView.animateWithDuration(1.5, animations: { self.label.attributedText = text   }, completion: {(value: Bool) in })
+            blinkStatus = false;
         }
-        let text = NSMutableAttributedString(attributedString: label.attributedText!)
-        text.addAttributes([NSForegroundColorAttributeName : UIColor.redColor()], range: range)
-        label.attributedText = text
+    }
+    
+    func blinkTextInLabel (label: UILabel, withRange rangeParameter: NSRange) {
+        self.range = rangeParameter
+        self.label = label
+        if (label.text?.characters.count == 8) {
+            self.range = NSMakeRange(self.range.location + 1, self.range.length)
+        }
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: #selector(TimeSelectionViewController.blink), userInfo: nil, repeats: true)
     }
     
     func setTitleDelegate() {

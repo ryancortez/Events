@@ -9,5 +9,8 @@
 import Foundation
 
 class EndingAbbreviationViewController : TimeSelectionViewController {
-    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        blinkTextInLabel(endTimeLabel, withRange: NSMakeRange(5, 2))
+    }
 }
