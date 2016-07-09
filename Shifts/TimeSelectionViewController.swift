@@ -19,8 +19,10 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
     @IBOutlet var endTimeOutletCollection: [UIButton]!
     @IBOutlet weak var titleOutlet: UITextView!
     
+    let customCornerRadius:CGFloat = 12.0
+    let customBorderWidth:CGFloat = 1.0
     let eventTitleKey = "Event Title"
-    var eventTitleValue: AnyObject = "Default Title"
+    var eventTitleValue: AnyObject = "Add title here"
     var shiftInfo:Event = Event()
     var dateFromRSDF: NSDate?
     let calendar = NSCalendar(identifier: NSCalendarIdentifierGregorian)
@@ -48,6 +50,22 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         refreshDayLabel()
         setDefaultStartTimeAndEndTimeLabels()
         refreshTimeLabels()
+        setupTitleTextView()
+    }
+    
+    func setupTitleTextView() {
+        if (titleOutlet != nil) {
+//            titleOutlet.layer.cornerRadius = customCornerRadius
+//            titleOutlet.layer.borderWidth = customBorderWidth
+//            titleOutlet.layer.borderColor = customGraycolor.CGColor
+            if (titleOutlet.text == "Add title here"){
+                titleOutlet.textColor = customGraycolor
+            }
+        }
+    }
+    
+    func textViewDidEndEditing(textView: UITextView) {
+        titleOutlet.textColor = UIColor.darkGrayColor()
     }
     
     func removeTimers() {
@@ -162,7 +180,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         if (startHourOutletCollection != nil){
             for button in startHourOutletCollection{
                 button.backgroundColor = customBlueColor
-                button.layer.cornerRadius = 12
+                button.layer.cornerRadius = customCornerRadius
                 button.layer.borderWidth = 1
                 button.layer.borderColor = UIColor.clearColor().CGColor
             }
@@ -171,7 +189,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         if (endTimeOutletCollection != nil){
             for button in endTimeOutletCollection{
                 button.backgroundColor = customGreenColor
-                button.layer.cornerRadius = 12
+                button.layer.cornerRadius = customCornerRadius
                 button.layer.borderWidth = 1
                 button.layer.borderColor = UIColor.clearColor().CGColor
             }
@@ -414,10 +432,12 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier != "confirmationToSuccess" && segue.identifier != "confirmationToFailureForSame" && segue.identifier != "confirmationToFailureEndBeforeStart" ){
-        let destinationVC = segue.destinationViewController as! TimeSelectionViewController
-        destinationVC.shiftInfo = shiftInfo
-        destinationVC.dateFromRSDF = dateFromRSDF
+            
+            if segue.destinationViewController is TimeSelectionViewController {
+                let destinationVC = segue.destinationViewController as! TimeSelectionViewController
+                destinationVC.shiftInfo = shiftInfo
+                destinationVC.dateFromRSDF = dateFromRSDF
+            }
         }
-        
     }
 }

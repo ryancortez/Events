@@ -15,6 +15,7 @@
 		946011101A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011071A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.m */; };
 		946011111A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011091A1EA9C20007E9F6 /* RSDFDatePickerMonthHeader.m */; };
 		946011121A1EA9C20007E9F6 /* RSDFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460110B1A1EA9C20007E9F6 /* RSDFDatePickerView.m */; };
+		947F7A9E1D317395009FE17B /* AddToCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F7A9D1D317395009FE17B /* AddToCalendarViewController.swift */; };
 		947F991A1A1DC87600C55B30 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F99191A1DC87600C55B30 /* NavigationViewController.swift */; };
 		9493A9821A2BF5B30057022C /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493A9811A2BF5B30057022C /* DayCell.swift */; };
 		94978C651A672EAD00FA7CBA /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */; };
@@ -75,6 +76,7 @@
 		9460110A1A1EA9C20007E9F6 /* RSDFDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerView.h; sourceTree = "<group>"; };
 		9460110B1A1EA9C20007E9F6 /* RSDFDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerView.m; sourceTree = "<group>"; };
 		946011131A1EAAC30007E9F6 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		947F7A9D1D317395009FE17B /* AddToCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToCalendarViewController.swift; sourceTree = "<group>"; };
 		947F99191A1DC87600C55B30 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = ../NavigationViewController.swift; sourceTree = "<group>"; };
 		9493A9811A2BF5B30057022C /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayCell.swift; path = ../DayCell.swift; sourceTree = "<group>"; };
 		94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayPickerViewController.swift; path = ../DayPickerViewController.swift; sourceTree = "<group>"; };
@@ -129,11 +131,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		944471661B519D3200FD3335 /* Shifts Tests */ = {
+		944471661B519D3200FD3335 /* Events Tests */ = {
 			isa = PBXGroup;
 			children = (
 				944471671B519D3200FD3335 /* Supporting Files */,
 			);
+			name = "Events Tests";
 			path = "Shifts Tests";
 			sourceTree = "<group>";
 		};
@@ -182,9 +185,9 @@
 		94B41DD319F45BDF00544CD9 = {
 			isa = PBXGroup;
 			children = (
-				94B41DDE19F45BDF00544CD9 /* Shifts */,
-				94B41DF419F45BDF00544CD9 /* ShiftsTests */,
-				944471661B519D3200FD3335 /* Shifts Tests */,
+				94B41DDE19F45BDF00544CD9 /* Events */,
+				94B41DF419F45BDF00544CD9 /* EventsTests */,
+				944471661B519D3200FD3335 /* Events Tests */,
 				94B41DDD19F45BDF00544CD9 /* Products */,
 				94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */,
 				94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */,
@@ -202,7 +205,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94B41DDE19F45BDF00544CD9 /* Shifts */ = {
+		94B41DDE19F45BDF00544CD9 /* Events */ = {
 			isa = PBXGroup;
 			children = (
 				94E6869A1D2E9CAA0088AF9D /* Model */,
@@ -211,6 +214,7 @@
 				94B41DE819F45BDF00544CD9 /* Images.xcassets */,
 				94B41DDF19F45BDF00544CD9 /* Supporting Files */,
 			);
+			name = Events;
 			path = Shifts;
 			sourceTree = "<group>";
 		};
@@ -227,12 +231,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		94B41DF419F45BDF00544CD9 /* ShiftsTests */ = {
+		94B41DF419F45BDF00544CD9 /* EventsTests */ = {
 			isa = PBXGroup;
 			children = (
 				94B41DF719F45BDF00544CD9 /* ShiftsTests.swift */,
 				94B41DF519F45BDF00544CD9 /* Supporting Files */,
 			);
+			name = EventsTests;
 			path = ShiftsTests;
 			sourceTree = "<group>";
 		};
@@ -289,6 +294,7 @@
 				94E686A31D2E9D8D0088AF9D /* EndingHourViewController.swift */,
 				94E686A51D2E9D990088AF9D /* EndingMinuteViewController.swift */,
 				94E686A71D2E9DA70088AF9D /* EndingAbberviationViewController.swift */,
+				947F7A9D1D317395009FE17B /* AddToCalendarViewController.swift */,
 			);
 			name = "Time Selection";
 			sourceTree = "<group>";
@@ -450,6 +456,7 @@
 				94E6869D1D2E9D2C0088AF9D /* StartHourViewController.swift in Sources */,
 				9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */,
 				9460110E1A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m in Sources */,
+				947F7A9E1D317395009FE17B /* AddToCalendarViewController.swift in Sources */,
 				9460110F1A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m in Sources */,
 				94978C691A67337800FA7CBA /* AddToCalendarTableViewController.m in Sources */,
 				94978C6E1A6738CD00FA7CBA /* Event.m in Sources */,
