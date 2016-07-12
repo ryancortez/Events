@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "94B41DDB19F45BDF00544CD9"
-               BuildableName = "Shifts.app"
-               BlueprintName = "Shifts"
+               BuildableName = "Events.app"
+               BlueprintName = "Events"
                ReferencedContainer = "container:Events.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -81,8 +81,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B41DDB19F45BDF00544CD9"
-            BuildableName = "Shifts.app"
-            BlueprintName = "Shifts"
+            BuildableName = "Events.app"
+            BlueprintName = "Events"
             ReferencedContainer = "container:Events.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -104,8 +104,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B41DDB19F45BDF00544CD9"
-            BuildableName = "Shifts.app"
-            BlueprintName = "Shifts"
+            BuildableName = "Events.app"
+            BlueprintName = "Events"
             ReferencedContainer = "container:Events.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -123,8 +123,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B41DDB19F45BDF00544CD9"
-            BuildableName = "Shifts.app"
-            BlueprintName = "Shifts"
+            BuildableName = "Events.app"
+            BlueprintName = "Events"
             ReferencedContainer = "container:Events.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

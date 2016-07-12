@@ -85,7 +85,7 @@
 		94978C6A1A6733F200FA7CBA /* TimeSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelectionViewController.swift; sourceTree = "<group>"; };
 		94978C6C1A6738CD00FA7CBA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		94978C6D1A6738CD00FA7CBA /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
-		94B41DDC19F45BDF00544CD9 /* Shifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B41DDC19F45BDF00544CD9 /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B41DE019F45BDF00544CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B41DE119F45BDF00544CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94B41DE619F45BDF00544CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -198,7 +198,7 @@
 		94B41DDD19F45BDF00544CD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94B41DDC19F45BDF00544CD9 /* Shifts.app */,
+				94B41DDC19F45BDF00544CD9 /* Events.app */,
 				94B41DF119F45BDF00544CD9 /* ShiftsTests.xctest */,
 				944471651B519D3200FD3335 /* Shifts Tests.xctest */,
 			);
@@ -320,9 +320,9 @@
 			productReference = 944471651B519D3200FD3335 /* Shifts Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		94B41DDB19F45BDF00544CD9 /* Shifts */ = {
+		94B41DDB19F45BDF00544CD9 /* Events */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94B41DFB19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "Shifts" */;
+			buildConfigurationList = 94B41DFB19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "Events" */;
 			buildPhases = (
 				94B41DD819F45BDF00544CD9 /* Sources */,
 				94B41DD919F45BDF00544CD9 /* Frameworks */,
@@ -332,9 +332,9 @@
 			);
 			dependencies = (
 			);
-			name = Shifts;
+			name = Events;
 			productName = Shifts;
-			productReference = 94B41DDC19F45BDF00544CD9 /* Shifts.app */;
+			productReference = 94B41DDC19F45BDF00544CD9 /* Events.app */;
 			productType = "com.apple.product-type.application";
 		};
 		94B41DF019F45BDF00544CD9 /* ShiftsTests */ = {
@@ -393,7 +393,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94B41DDB19F45BDF00544CD9 /* Shifts */,
+				94B41DDB19F45BDF00544CD9 /* Events */,
 				94B41DF019F45BDF00544CD9 /* ShiftsTests */,
 				944471641B519D3200FD3335 /* Shifts Tests */,
 			);
@@ -481,12 +481,12 @@
 /* Begin PBXTargetDependency section */
 		9444716C1B519D3200FD3335 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94B41DDB19F45BDF00544CD9 /* Shifts */;
+			target = 94B41DDB19F45BDF00544CD9 /* Events */;
 			targetProxy = 9444716B1B519D3200FD3335 /* PBXContainerItemProxy */;
 		};
 		94B41DF319F45BDF00544CD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94B41DDB19F45BDF00544CD9 /* Shifts */;
+			target = 94B41DDB19F45BDF00544CD9 /* Events */;
 			targetProxy = 94B41DF219F45BDF00544CD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -703,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94B41DFB19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "Shifts" */ = {
+		94B41DFB19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "Events" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94B41DFC19F45BDF00544CD9 /* Debug */,
