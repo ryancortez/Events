@@ -340,7 +340,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         
         switch (myStartDate.compare(myEndDate)) {
         case NSComparisonResult.OrderedAscending:
-            checkForCalendarAccess(myStartDate, endDate: myEndDate)
+            saveEvent(withStartDate: myStartDate, andEndDate: myEndDate)
             performSegueWithIdentifier("confirmationToSuccess", sender: sender)
         case NSComparisonResult.OrderedSame:
             performSegueWithIdentifier("confirmationToFailureForSame", sender: sender)
@@ -353,7 +353,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         self.navigationController?.popToRootViewControllerAnimated(true)
     }
     
-    func checkForCalendarAccess (startDate:NSDate , endDate:NSDate) {
+    func saveEvent(withStartDate startDate:NSDate , andEndDate endDate:NSDate) {
 
         let eventStore = EKEventStore()
 
