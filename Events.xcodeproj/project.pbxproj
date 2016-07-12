@@ -26,7 +26,6 @@
 		94B41DE719F45BDF00544CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DE519F45BDF00544CD9 /* Main.storyboard */; };
 		94B41DE919F45BDF00544CD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DE819F45BDF00544CD9 /* Images.xcassets */; };
 		94B41DEC19F45BDF00544CD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DEA19F45BDF00544CD9 /* LaunchScreen.xib */; };
-		94B41DF819F45BDF00544CD9 /* ShiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B41DF719F45BDF00544CD9 /* ShiftsTests.swift */; };
 		94C0F48D1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */; };
 		94C0F4911ACCB63E00E9F26A /* Blue UI Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */; };
 		94D90C981ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D90C971ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png */; };
@@ -39,26 +38,8 @@
 		94F678921A9ECA7D009E588D /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9444716B1B519D3200FD3335 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 94B41DD419F45BDF00544CD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94B41DDB19F45BDF00544CD9;
-			remoteInfo = Shifts;
-		};
-		94B41DF219F45BDF00544CD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 94B41DD419F45BDF00544CD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94B41DDB19F45BDF00544CD9;
-			remoteInfo = Shifts;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
-		944471651B519D3200FD3335 /* Shifts Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shifts Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		944471681B519D3200FD3335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		946010FD1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+RSDFAdditions.h"; sourceTree = "<group>"; };
 		946010FE1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+RSDFAdditions.m"; sourceTree = "<group>"; };
@@ -91,7 +72,6 @@
 		94B41DE619F45BDF00544CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94B41DE819F45BDF00544CD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94B41DEB19F45BDF00544CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		94B41DF119F45BDF00544CD9 /* ShiftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B41DF619F45BDF00544CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B41DF719F45BDF00544CD9 /* ShiftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsTests.swift; sourceTree = "<group>"; };
 		94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shifts App Icon - iPhone 5 and 6.png"; sourceTree = "<group>"; };
@@ -107,21 +87,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		944471621B519D3200FD3335 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94B41DD919F45BDF00544CD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94B41DEE19F45BDF00544CD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,8 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				94B41DDC19F45BDF00544CD9 /* Events.app */,
-				94B41DF119F45BDF00544CD9 /* ShiftsTests.xctest */,
-				944471651B519D3200FD3335 /* Shifts Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				946011131A1EAAC30007E9F6 /* BridgingHeader.h */,
-				94B41DEA19F45BDF00544CD9 /* LaunchScreen.xib */,
 				94B41DE119F45BDF00544CD9 /* AppDelegate.swift */,
 				94978C661A67336600FA7CBA /* From 'Events' */,
 				946010FC1A1EA9C20007E9F6 /* RSDayFlow */,
@@ -253,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				94B41DE519F45BDF00544CD9 /* Main.storyboard */,
+				94B41DEA19F45BDF00544CD9 /* LaunchScreen.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -302,24 +266,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		944471641B519D3200FD3335 /* Shifts Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9444716F1B519D3200FD3335 /* Build configuration list for PBXNativeTarget "Shifts Tests" */;
-			buildPhases = (
-				944471611B519D3200FD3335 /* Sources */,
-				944471621B519D3200FD3335 /* Frameworks */,
-				944471631B519D3200FD3335 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9444716C1B519D3200FD3335 /* PBXTargetDependency */,
-			);
-			name = "Shifts Tests";
-			productName = "Shifts Tests";
-			productReference = 944471651B519D3200FD3335 /* Shifts Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		94B41DDB19F45BDF00544CD9 /* Events */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B41DFB19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "Events" */;
@@ -337,24 +283,6 @@
 			productReference = 94B41DDC19F45BDF00544CD9 /* Events.app */;
 			productType = "com.apple.product-type.application";
 		};
-		94B41DF019F45BDF00544CD9 /* ShiftsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94B41DFE19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "ShiftsTests" */;
-			buildPhases = (
-				94B41DED19F45BDF00544CD9 /* Sources */,
-				94B41DEE19F45BDF00544CD9 /* Frameworks */,
-				94B41DEF19F45BDF00544CD9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				94B41DF319F45BDF00544CD9 /* PBXTargetDependency */,
-			);
-			name = ShiftsTests;
-			productName = ShiftsTests;
-			productReference = 94B41DF119F45BDF00544CD9 /* ShiftsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -366,17 +294,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Full Screen Ahead";
 				TargetAttributes = {
-					944471641B519D3200FD3335 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 94B41DDB19F45BDF00544CD9;
-					};
 					94B41DDB19F45BDF00544CD9 = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = DJM86A6U7U;
-					};
-					94B41DF019F45BDF00544CD9 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 94B41DDB19F45BDF00544CD9;
 					};
 				};
 			};
@@ -394,20 +314,11 @@
 			projectRoot = "";
 			targets = (
 				94B41DDB19F45BDF00544CD9 /* Events */,
-				94B41DF019F45BDF00544CD9 /* ShiftsTests */,
-				944471641B519D3200FD3335 /* Shifts Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		944471631B519D3200FD3335 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94B41DDA19F45BDF00544CD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,23 +332,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B41DEF19F45BDF00544CD9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		944471611B519D3200FD3335 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94B41DD819F45BDF00544CD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,28 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B41DED19F45BDF00544CD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94B41DF819F45BDF00544CD9 /* ShiftsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9444716C1B519D3200FD3335 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 94B41DDB19F45BDF00544CD9 /* Events */;
-			targetProxy = 9444716B1B519D3200FD3335 /* PBXContainerItemProxy */;
-		};
-		94B41DF319F45BDF00544CD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 94B41DDB19F45BDF00544CD9 /* Events */;
-			targetProxy = 94B41DF219F45BDF00544CD9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		94B41DE519F45BDF00544CD9 /* Main.storyboard */ = {
@@ -511,41 +387,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9444716D1B519D3200FD3335 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Shifts Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ryancortez.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifts.app/Shifts";
-			};
-			name = Debug;
-		};
-		9444716E1B519D3200FD3335 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Shifts Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ryancortez.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifts.app/Shifts";
-			};
-			name = Release;
-		};
 		94B41DF919F45BDF00544CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -654,46 +495,9 @@
 			};
 			name = Release;
 		};
-		94B41DFF19F45BDF00544CD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShiftsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FullScreenAhead.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifts.app/Shifts";
-			};
-			name = Debug;
-		};
-		94B41E0019F45BDF00544CD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ShiftsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FullScreenAhead.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifts.app/Shifts";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9444716F1B519D3200FD3335 /* Build configuration list for PBXNativeTarget "Shifts Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9444716D1B519D3200FD3335 /* Debug */,
-				9444716E1B519D3200FD3335 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		94B41DD719F45BDF00544CD9 /* Build configuration list for PBXProject "Events" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -708,15 +512,6 @@
 			buildConfigurations = (
 				94B41DFC19F45BDF00544CD9 /* Debug */,
 				94B41DFD19F45BDF00544CD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94B41DFE19F45BDF00544CD9 /* Build configuration list for PBXNativeTarget "ShiftsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94B41DFF19F45BDF00544CD9 /* Debug */,
-				94B41E0019F45BDF00544CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,7 +12,7 @@
         <!--Starting Hour-->
         <scene sceneID="FRk-bb-it3">
             <objects>
-                <viewController title="Starting Hour" id="uz5-D7-gHs" customClass="StartHourViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Starting Hour" id="uz5-D7-gHs" customClass="StartHourViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xZq-rb-4LI"/>
                         <viewControllerLayoutGuide type="bottom" id="c9a-oV-BDc"/>
@@ -381,7 +381,7 @@
         <!--Navigation View Controller-->
         <scene sceneID="sfL-2R-4ft">
             <objects>
-                <navigationController id="9jw-Ax-u8U" customClass="NavigationViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="9jw-Ax-u8U" customClass="NavigationViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fkc-id-reu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -397,7 +397,7 @@
         <!--Select a Date-->
         <scene sceneID="vIz-KV-qNH">
             <objects>
-                <viewController id="pv5-Us-THr" customClass="DayPickerViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pv5-Us-THr" customClass="DayPickerViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qua-5z-4Pt"/>
                         <viewControllerLayoutGuide type="bottom" id="P09-IR-Bf2"/>
@@ -421,7 +421,7 @@
         <!--Starting Minute-->
         <scene sceneID="xEp-B0-XQm">
             <objects>
-                <viewController title="Starting Minute" id="1uf-Dh-KzT" customClass="StartMinuteViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Starting Minute" id="1uf-Dh-KzT" customClass="StartMinuteViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="A8j-dD-LWb"/>
                         <viewControllerLayoutGuide type="bottom" id="bcf-iz-dYa"/>
@@ -625,7 +625,7 @@
         <!--Ending Hour-->
         <scene sceneID="t65-KI-ArY">
             <objects>
-                <viewController title="Ending Hour" id="n34-uX-MKM" customClass="EndingHourViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Ending Hour" id="n34-uX-MKM" customClass="EndingHourViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s6s-ea-nxr"/>
                         <viewControllerLayoutGuide type="bottom" id="Fof-3o-PpC"/>
@@ -996,7 +996,7 @@
         <!--Ending Minute-->
         <scene sceneID="Ivb-Q0-RYj">
             <objects>
-                <viewController title="Ending Minute" id="8CW-I1-3pu" customClass="EndingMinuteViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Ending Minute" id="8CW-I1-3pu" customClass="EndingMinuteViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Aqe-dA-0vg"/>
                         <viewControllerLayoutGuide type="bottom" id="ybv-84-S6b"/>
@@ -1202,7 +1202,7 @@
         <!--Ending AM or PM-->
         <scene sceneID="x8g-pl-GeB">
             <objects>
-                <viewController title="Ending AM or PM" id="pIZ-V7-OC0" customClass="EndingAbbreviationViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Ending AM or PM" id="pIZ-V7-OC0" customClass="EndingAbbreviationViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xoq-oV-bAu"/>
                         <viewControllerLayoutGuide type="bottom" id="F1f-hu-Miw"/>
@@ -1365,7 +1365,7 @@
         <!--Confirmation-->
         <scene sceneID="HAP-J8-76S">
             <objects>
-                <viewController title="Confirmation" id="IG5-FI-rfy" customClass="TimeSelectionViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Confirmation" id="IG5-FI-rfy" customClass="TimeSelectionViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WvA-CO-XSo"/>
                         <viewControllerLayoutGuide type="bottom" id="aGc-es-uDO"/>
@@ -1543,7 +1543,7 @@
         <!--Confirmation View Controller-->
         <scene sceneID="vIt-YC-kWP">
             <objects>
-                <viewController id="aTL-bF-Vli" customClass="ConfirmationViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aTL-bF-Vli" customClass="ConfirmationViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GTl-sp-cIL"/>
                         <viewControllerLayoutGuide type="bottom" id="cEY-zg-mov"/>
@@ -1585,7 +1585,7 @@
         <!--Starting AM or PM-->
         <scene sceneID="cJG-ah-NIl">
             <objects>
-                <viewController title="Starting AM or PM" id="rfK-iw-35H" customClass="StartAbbreviationViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Starting AM or PM" id="rfK-iw-35H" customClass="StartAbbreviationViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UBo-lc-985"/>
                         <viewControllerLayoutGuide type="bottom" id="Yi5-Yt-cbw"/>
@@ -1746,7 +1746,7 @@
         <!--Confirmation View Controller-->
         <scene sceneID="F3d-pl-BWv">
             <objects>
-                <viewController id="w6E-Vb-0Jo" customClass="ConfirmationViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="w6E-Vb-0Jo" customClass="ConfirmationViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bq9-jm-kS9"/>
                         <viewControllerLayoutGuide type="bottom" id="rhp-FA-VC5"/>
@@ -1802,7 +1802,7 @@
         <!--Confirmation View Controller-->
         <scene sceneID="Evp-Yq-o4t">
             <objects>
-                <viewController id="Wl0-29-Bs6" customClass="ConfirmationViewController" customModule="Shifts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Wl0-29-Bs6" customClass="ConfirmationViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UXs-en-3yR"/>
                         <viewControllerLayoutGuide type="bottom" id="mNo-TF-oGl"/>

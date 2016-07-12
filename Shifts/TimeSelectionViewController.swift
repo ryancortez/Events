@@ -53,11 +53,37 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         setupTitleTextView()
     }
     
+    
+    func checkForCalendarAccess() {
+        let eventStore = EKEventStore()
+        switch EKEventStore.authorizationStatusForEntityType(EKEntityType.Event) {
+        case .Authorized:
+            // If you already have access to the Calendar
+            break
+        case .Denied:
+            // If you were not given access to the Calendar
+            self.navigationController?.popToRootViewControllerAnimated(true)
+        case .NotDetermined:
+            // If it hasn't been asked to the user yet
+            
+            // Request permisson to the calendar
+            eventStore.requestAccessToEntityType(EKEntityType.Event, completion:
+                {(granted: Bool, error: NSError?) -> Void in
+                    if granted {
+                    
+                    } else {
+                        // If you were not given access to the Calendar by the user
+                        self.navigationController?.popToRootViewControllerAnimated(true)
+                    }
+            })
+        default:
+            print("Default Case")
+        }
+    }
+
+    
     func setupTitleTextView() {
         if (titleOutlet != nil) {
-//            titleOutlet.layer.cornerRadius = customCornerRadius
-//            titleOutlet.layer.borderWidth = customBorderWidth
-//            titleOutlet.layer.borderColor = customGraycolor.CGColor
             if (titleOutlet.text == "Add title here"){
                 titleOutlet.textColor = customGraycolor
             }
@@ -370,32 +396,6 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
                         self.saveEvent(toEventStore: eventStore, withStartdate: startDate, andEndDate: endDate)
                     } else {
                         print("Access denied")
-                    }
-            })
-        default:
-            print("Default Case")
-        }
-    }
-    
-    func checkForCalendarAccess() {
-        let eventStore = EKEventStore()
-        switch EKEventStore.authorizationStatusForEntityType(EKEntityType.Event) {
-        case .Authorized:
-            // If you already have access to the Calendar
-            print()
-        case .Denied:
-            // If you were not given access to the Calendar
-            print()
-        case .NotDetermined:
-            // If it hasn't been asked to the user yet
-            
-            // Request permisson to the calendar
-            eventStore.requestAccessToEntityType(EKEntityType.Event, completion:
-                {(granted: Bool, error: NSError?) -> Void in
-                    if granted {
-                        
-                    } else {
-                        // If you were not given access to the Calendar by the user
                     }
             })
         default:

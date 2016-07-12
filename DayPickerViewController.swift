@@ -42,6 +42,7 @@ class DayPickerViewController: UIViewController, RSDFDatePickerViewDelegate, RSD
         let calendarAccessDeniedView = UIView(frame: CGRectMake(0, 0, AccessDeniedViewSize.Width.rawValue, AccessDeniedViewSize.Height.rawValue))
         calendarAccessDeniedView.center = CGPointMake(self.view.frame.width/2, self.view.frame.height/2)
         view.addSubview(calendarAccessDeniedView)
+        
         let calendarAccessDeniedLabel = UILabel(frame: CGRectMake(0, 0, AccessDeniedViewSize.Width.rawValue, AccessDeniedViewSize.Height.rawValue/2))
         calendarAccessDeniedLabel.text = "This App needs access to your Calendar to save events"
         calendarAccessDeniedLabel.font = UIFont(name: "Avenir", size: 18)
@@ -56,6 +57,10 @@ class DayPickerViewController: UIViewController, RSDFDatePickerViewDelegate, RSD
         goToSettingsButton.layer.cornerRadius = 10
         goToSettingsButton.addTarget(self, action: #selector(goToSettingsButtonPressed), forControlEvents: .TouchUpInside)
         calendarAccessDeniedView.addSubview(goToSettingsButton)
+        
+    }
+    
+    func createCalendarAccessLabel() {
         
     }
     

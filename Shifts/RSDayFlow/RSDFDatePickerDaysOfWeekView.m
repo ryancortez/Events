@@ -263,12 +263,12 @@
 {
     if ([self isPhone]) {
         if ([self isPortraitInterfaceOrientation]) {
-            return [UIFont fontWithName:@"Avenir-Light" size:10.0];
+            return [UIFont fontWithName:@"Avenir" size:10.0];
         } else {
-            return [UIFont fontWithName:@"Avenir-Light" size:12.0];
+            return [UIFont fontWithName:@"Avenir" size:12.0];
         }
     } else {
-        return [UIFont fontWithName:@"Avenir-Light" size:16.0];
+        return [UIFont fontWithName:@"Avenir" size:16.0];
     }
 }
 
