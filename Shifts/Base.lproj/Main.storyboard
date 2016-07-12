@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9jw-Ax-u8U">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9jw-Ax-u8U">
     <dependencies>
         <deployment identifier="iOS"/>
+        <development version="7000" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -23,7 +24,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="slv-wG-fRo">
                                 <rect key="frame" x="404" y="234" width="176" height="65"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
-                                <color key="textColor" red="0.74117647058823533" green="0.74117647058823533" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.68708598613739014" green="0.68706536293029785" blue="0.68707704544067383" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="178" y="280" width="164" height="67"/>
@@ -31,23 +32,17 @@
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="477" width="164" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QTa-zF-Qgl">
                                 <rect key="frame" x="20" y="72" width="560" height="88"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85" y="64" width="229" height="29"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="rI8-hw-4xg">
@@ -61,9 +56,6 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="430" width="109.5" height="47"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iit-5I-7pF">
@@ -79,13 +71,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="4">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="a0Y-ax-ZqP"/>
@@ -96,13 +85,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="5">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="c0V-Ow-4xY"/>
@@ -113,13 +99,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="6">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="rT9-5M-Nq9"/>
@@ -130,13 +113,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="2">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="A9M-GX-mRn"/>
@@ -147,13 +127,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="3">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="mhO-2l-Xdd"/>
@@ -167,13 +144,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="7">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="RzZ-5f-Pox"/>
@@ -184,13 +158,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="8">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="NXW-QO-e6m"/>
@@ -201,13 +172,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="9">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="Zp2-Zu-elk"/>
@@ -218,13 +186,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="11">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="ZnX-aS-If5"/>
@@ -235,13 +200,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="12">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="HaT-Rm-hrQ"/>
@@ -256,13 +218,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="1">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="4dt-LB-1GA"/>
@@ -274,13 +233,10 @@
                                     <constraint firstAttribute="height" constant="65" id="Pqb-Ax-TcU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="477" width="109.5" height="67"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dcN-IX-9jZ">
@@ -294,9 +250,6 @@
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="178" y="188" width="164" height="34"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="430" width="164" height="47"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
@@ -309,20 +262,17 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="10">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startHourButton:" destination="uz5-D7-gHs" eventType="touchUpInside" id="B7e-HX-idZ"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="yHh-NO-7qS" firstAttribute="baseline" secondItem="9yR-Tx-1kJ" secondAttribute="firstBaseline" id="0Xv-4g-rjR"/>
                             <constraint firstItem="XRV-7s-meZ" firstAttribute="width" secondItem="rI8-hw-4xg" secondAttribute="width" id="2H7-rz-X1M"/>
@@ -455,7 +405,7 @@
                     <view key="view" contentMode="scaleToFill" id="ttR-BE-jJj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Select a Date" id="RNw-WB-FbI">
                         <barButtonItem key="backBarButtonItem" title="Start Date" id="Kvc-Sq-BEy"/>
@@ -491,13 +441,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title=":45">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startMinuteButton:" destination="1uf-Dh-KzT" eventType="touchUpInside" id="cQK-nn-L02"/>
@@ -512,13 +459,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title=":00">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startMinuteButton:" destination="1uf-Dh-KzT" eventType="touchUpInside" id="uyh-fH-HQ5"/>
@@ -529,13 +473,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title=":15">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startMinuteButton:" destination="1uf-Dh-KzT" eventType="touchUpInside" id="PNs-iw-pm3"/>
@@ -552,9 +493,6 @@
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="477" width="164" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text=" End Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="hzv-B8-flU">
                                 <rect key="frame" x="251" y="234" width="145" height="65"/>
@@ -562,28 +500,22 @@
                                     <constraint firstAttribute="height" constant="65" id="hHj-Sg-iKl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="477" width="109.5" height="67"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="02v-Vi-5Wp">
                                 <rect key="frame" x="20" y="72" width="560" height="88"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85" y="64" width="229" height="29"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="sov-Cs-dp5">
@@ -598,9 +530,6 @@
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53" y="233" width="109.5" height="47"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="430" width="109.5" height="47"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="248" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="8zj-jW-Iyh">
                                 <rect key="frame" x="404" y="168" width="176" height="65"/>
@@ -612,9 +541,6 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="430" width="164" height="47"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
@@ -628,20 +554,17 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title=":30">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startMinuteButton:" destination="1uf-Dh-KzT" eventType="touchUpInside" id="NWW-6n-7zI"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="xJ4-KM-dq8" firstAttribute="trailing" secondItem="mZv-Se-QHc" secondAttribute="trailing" id="0Wj-h1-M4K"/>
                             <constraint firstItem="eko-Tt-2q1" firstAttribute="top" secondItem="y2Q-t8-Vyz" secondAttribute="bottom" constant="8" symbolic="YES" id="0lZ-Qy-cPU"/>
@@ -722,8 +645,8 @@
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="477" width="164" height="67"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="186" y="301" width="172" height="65"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text=" End Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="MiA-Mb-gRf">
@@ -737,23 +660,20 @@
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="477" width="109.5" height="67"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="18" y="301" width="160" height="65"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="S2C-3L-tyd">
                                 <rect key="frame" x="20" y="72" width="560" height="88"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85" y="64" width="229" height="29"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="qut-XY-6nS">
@@ -763,13 +683,13 @@
                                     <constraint firstAttribute="height" constant="65" id="dKh-9D-y7u"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53" y="233" width="109.5" height="47"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="430" width="109.5" height="47"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="18" y="235" width="160" height="65"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsX-jQ-Iq3">
@@ -780,13 +700,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="4">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="6N6-9J-dXM"/>
@@ -797,13 +714,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="5">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="PHS-KR-gdN"/>
@@ -814,13 +728,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="6">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="8cV-Mc-j6Y"/>
@@ -831,13 +742,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="2">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="2qH-qV-YDE"/>
@@ -848,13 +756,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="3">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="b9L-T2-UAI"/>
@@ -868,13 +773,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="7">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="8De-ae-Fa3"/>
@@ -885,13 +787,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="8">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="DVB-FN-hZd"/>
@@ -902,13 +801,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="9">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="9zZ-ci-keE"/>
@@ -919,13 +815,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="12">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="otB-CD-Ia2"/>
@@ -940,13 +833,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="1">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="Ilz-j7-hzT"/>
@@ -960,13 +850,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="10">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="mZg-YG-Dec"/>
@@ -983,8 +870,8 @@
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="178" y="188" width="164" height="34"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="430" width="164" height="47"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="186" y="235" width="172" height="65"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
@@ -995,20 +882,17 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="11">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingHourButton:" destination="n34-uX-MKM" eventType="touchUpInside" id="Ypw-ay-yC6"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="zM3-Ag-LvE" firstAttribute="baseline" secondItem="l7s-ad-QbL" secondAttribute="firstBaseline" id="0Eo-0M-vJx"/>
                             <constraint firstItem="qut-XY-6nS" firstAttribute="top" secondItem="S2C-3L-tyd" secondAttribute="bottom" constant="8" symbolic="YES" id="0FZ-UU-Mew"/>
@@ -1134,13 +1018,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title=":30">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingMinuteButton:" destination="8CW-I1-3pu" eventType="touchUpInside" id="Tzo-qj-1DW"/>
@@ -1151,13 +1032,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title=":45">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingMinuteButton:" destination="8CW-I1-3pu" eventType="touchUpInside" id="kb8-xe-nCe"/>
@@ -1171,13 +1049,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title=":00">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingMinuteButton:" destination="8CW-I1-3pu" eventType="touchUpInside" id="iFd-gc-W15"/>
@@ -1194,9 +1069,6 @@
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="477" width="109.5" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gOM-eb-mov">
                                 <rect key="frame" x="20" y="72" width="560" height="89"/>
@@ -1204,16 +1076,13 @@
                                     <constraint firstAttribute="height" priority="750" constant="88" id="26M-sh-x6u"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85" y="64" width="229" height="29"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="v54-Nn-WR5">
@@ -1223,13 +1092,10 @@
                                     <constraint firstAttribute="height" constant="65" id="pK7-r6-s90"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="430" width="109.5" height="47"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="Qwh-c1-pkF">
@@ -1243,9 +1109,6 @@
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="477" width="164" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pBE-KE-S3a">
                                 <rect key="frame" x="404" y="169" width="176" height="65"/>
@@ -1258,9 +1121,6 @@
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="178" y="188" width="164" height="34"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="430" width="164" height="47"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
@@ -1270,20 +1130,17 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title=":15">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingMinuteButton:" destination="8CW-I1-3pu" eventType="touchUpInside" id="mia-oe-VBW"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JPu-qa-CDp" firstAttribute="top" secondItem="ZH8-S9-9OU" secondAttribute="top" id="0op-9u-FgO"/>
                             <constraint firstItem="pBE-KE-S3a" firstAttribute="bottom" secondItem="v54-Nn-WR5" secondAttribute="bottom" id="5IK-4u-BCG"/>
@@ -1364,13 +1221,10 @@
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="PM">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingAbbrevationButton:" destination="pIZ-V7-OC0" eventType="touchUpInside" id="5R2-jr-nW0"/>
@@ -1384,13 +1238,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="AM">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="endingAbbrevationButton:" destination="pIZ-V7-OC0" eventType="touchUpInside" id="pIb-ip-0jj"/>
@@ -1407,9 +1258,6 @@
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="477" width="164" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text=" End Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="Yf8-gn-noR">
                                 <rect key="frame" x="236" y="234" width="160" height="65"/>
@@ -1421,9 +1269,6 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="477" width="109.5" height="67"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="wT4-MS-WL3">
@@ -1437,9 +1282,6 @@
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="178" y="188" width="164" height="34"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="430" width="164" height="47"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
@@ -1450,16 +1292,13 @@
                                     <constraint firstAttribute="height" priority="250" constant="88" id="eol-bx-DsI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85" y="64" width="229" height="29"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="boT-pp-WVj">
@@ -1469,17 +1308,14 @@
                                     <constraint firstAttribute="height" constant="65" id="vCD-PX-1cM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53" y="233" width="109.5" height="47"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="430" width="109.5" height="47"/>
-                                </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6Zj-NS-PH5" firstAttribute="top" secondItem="Aia-Mu-rLx" secondAttribute="bottom" constant="7" id="1Ds-7V-Qv7"/>
                             <constraint firstItem="3kN-Rb-ajc" firstAttribute="leading" secondItem="Yf8-gn-noR" secondAttribute="trailing" constant="8" symbolic="YES" id="8Ag-KZ-JUL"/>
@@ -1549,13 +1385,10 @@
                                     <constraint firstAttribute="height" priority="250" constant="65" id="6n9-GP-lkK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="477" width="109.5" height="67"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ruX-tL-RNt">
@@ -1565,13 +1398,10 @@
                                     <constraint firstAttribute="width" priority="250" constant="160" id="xyD-eP-lKy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="430" width="109.5" height="47"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="hc6-PH-tPX">
@@ -1580,7 +1410,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="176" id="lPu-ns-zFF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
-                                <color key="textColor" red="0.45928092277486909" green="0.45928092277486909" blue="0.45928092277486909" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="178" y="280" width="164" height="67"/>
@@ -1588,40 +1418,16 @@
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="477" width="164" height="67"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="t4C-bb-wuN">
-                                <rect key="frame" x="404" y="289" width="176" height="65"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="176" id="LnD-OK-MGK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
-                                <color key="textColor" red="0.45928092277486909" green="0.45928092277486909" blue="0.45928092277486909" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="430" width="164" height="47"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="378" y="400" width="164" height="47"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gL5-ua-Swt">
                                 <rect key="frame" x="20" y="502.5" width="560" height="77.5"/>
                                 <color key="backgroundColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="Add to Calendar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="addToCalendarButton:" destination="IG5-FI-rfy" eventType="touchUpInside" id="lqH-A0-O5t"/>
@@ -1635,13 +1441,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="Start Over">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startOverButton:" destination="IG5-FI-rfy" eventType="touchUpInside" id="y5F-IA-Wxz"/>
@@ -1649,18 +1452,18 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" keyboardDismissMode="interactive" text="Work" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pmB-IX-Xlx">
                                 <rect key="frame" x="20" y="114" width="560" height="46"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="P1M-IM-Cvm"/>
                                 </constraints>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2gL-OK-b2j">
                                 <rect key="frame" x="20" y="168" width="560" height="41"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
@@ -1668,12 +1471,24 @@
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="85.5" y="72" width="229" height="153"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85" y="64" width="229" height="29"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="t4C-bb-wuN">
+                                <rect key="frame" x="404" y="289" width="176" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="176" id="LnD-OK-MGK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="t4C-bb-wuN" firstAttribute="trailing" secondItem="hc6-PH-tPX" secondAttribute="trailing" id="2ap-kD-RTZ"/>
                             <constraint firstItem="ruX-tL-RNt" firstAttribute="top" relation="greaterThanOrEqual" secondItem="2gL-OK-b2j" secondAttribute="bottom" priority="750" constant="80" id="3Pn-KM-NCa"/>
@@ -1740,13 +1555,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The event has been added." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kum-1X-zAM">
                                 <rect key="frame" x="20" y="263" width="560" height="74"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="33" translatesAutoresizingMaskIntoConstraints="NO" id="fXZ-RM-etr">
                                 <rect key="frame" x="20" y="181" width="560" height="74"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="66"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1789,13 +1604,10 @@
                                 <color key="backgroundColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="PM">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startAbbreviationButton:" destination="rfK-iw-35H" eventType="touchUpInside" id="MhS-E0-jIO"/>
@@ -1807,28 +1619,22 @@
                                     <constraint firstAttribute="height" constant="65" id="Gnw-Zl-bGm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="477" width="109.5" height="67"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yQd-Tp-JkJ">
                                 <rect key="frame" x="20" y="72" width="560" height="88"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85" y="64" width="229" height="29"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="gtP-cN-Hes">
@@ -1843,9 +1649,6 @@
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="53" y="233" width="109.5" height="47"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="56" y="430" width="109.5" height="47"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBw-Jd-B6R">
                                 <rect key="frame" x="20" y="307" width="560" height="133"/>
@@ -1855,13 +1658,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <state key="normal" title="AM">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="348" width="412" height="52"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="85" y="552" width="71" height="51"/>
                                 </variation>
                                 <connections>
                                     <action selector="startAbbreviationButton:" destination="rfK-iw-35H" eventType="touchUpInside" id="kVa-wf-Jjy"/>
@@ -1878,9 +1678,6 @@
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="477" width="164" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Cak-dL-gon">
                                 <rect key="frame" x="404" y="168" width="176" height="65"/>
@@ -1893,15 +1690,12 @@
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="178" y="188" width="164" height="34"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="181" y="430" width="164" height="47"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="3fa-8m-v5l" firstAttribute="width" secondItem="gtP-cN-Hes" secondAttribute="width" id="3Fo-W7-pqr"/>
                             <constraint firstItem="Cak-dL-gon" firstAttribute="leading" secondItem="gtP-cN-Hes" secondAttribute="trailing" constant="8" symbolic="YES" id="3Vd-hS-bIB"/>
@@ -1967,12 +1761,12 @@
                                     <constraint firstAttribute="height" constant="88" id="BRi-1m-SEF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="66"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Your event's start and end time were the exact same." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1yR-Yn-f6d">
                                 <rect key="frame" x="20" y="282" width="560" height="188"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1981,7 +1775,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="107" id="B0z-MB-jBe"/>
                                 </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="26"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2023,13 +1817,13 @@
                                     <constraint firstAttribute="height" constant="88" id="ps8-CP-JSh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="66"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's have a redo." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d3k-cv-Fhg">
                                 <rect key="frame" x="20" y="418" width="560" height="162"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Your event's end time was before the start time." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZGX-iD-adX">
@@ -2037,7 +1831,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="136" id="TOM-hB-Au9"/>
                                 </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

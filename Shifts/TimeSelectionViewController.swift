@@ -390,7 +390,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
                         
                         let event = EKEvent(eventStore: eventStore)
                         
-                        event.title = "Your Event Title Here" // Sets event's title
+                        event.title = "Event" // Sets event's title
                         event.startDate = NSDate() // Sets event's start date
                         event.endDate = event.startDate.dateByAddingTimeInterval(20000) // Sets event's end date
                         event.calendar = eventStore.defaultCalendarForNewEvents // Selects default calendar
