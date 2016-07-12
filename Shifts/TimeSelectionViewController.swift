@@ -367,30 +367,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
             eventStore.requestAccessToEntityType(EKEntityType.Event, completion:
                 {(granted: Bool, error: NSError?) -> Void in
                     if granted {
-                        
-                        let event = EKEvent(eventStore: eventStore)
-                        
-                        event.title = "Event" // Sets event's title
-                        event.startDate = NSDate() // Sets event's start date
-                        event.endDate = event.startDate.dateByAddingTimeInterval(20000) // Sets event's end date
-                        event.calendar = eventStore.defaultCalendarForNewEvents // Selects default calendar
-                        
-                        var saveError : NSError? = nil // Initially sets errors to nil
-                        do {
-                            try eventStore.saveEvent(event, span: .ThisEvent, commit: true)
-                        } catch let error as NSError {
-                            saveError = error
-                        } catch {
-                            fatalError()
-                        } // Commits changes and allows saveEvent to change error from nil
-                        
-                        //// Following checks for errors and prints result to Debug Area ////
-                        if saveError != nil {
-                            print("Saving event to Calendar failed with error: \(saveError!)")
-                        } else {
-                            print("Successfully saved '\(event.title)' to '\(event.calendar.title)' calendar.")
-                        }
-
+                        self.saveEvent(toEventStore: eventStore, withStartdate: startDate, andEndDate: endDate)
                     } else {
                         print("Access denied")
                     }
@@ -401,9 +378,14 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
     }
     
     func saveEvent(toEventStore eventStore: EKEventStore, withStartdate startDate: NSDate, andEndDate endDate: NSDate) {
-        let event = EKEvent(eventStore: eventStore)
         
-        event.title = titleOutlet.text // Sets event's title
+        let event = EKEvent(eventStore: eventStore)
+        if (titleOutlet.text != eventTitleValue as? String && titleOutlet.text != nil) {
+            event.title = titleOutlet.text // Sets event's title
+        } else {
+            event.title = "Event"
+        }
+        
         event.startDate = startDate // Sets event's start date
         event.endDate = endDate // Sets event's end date
         event.calendar = eventStore.defaultCalendarForNewEvents // Selects default calendar
@@ -421,6 +403,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         } else {
             print("Successfully saved '\(event.title)' to '\(event.calendar.title)' calendar.")
         }
+
     }
     
     func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool{
