@@ -373,12 +373,39 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
                     }
             })
         default:
-            print("Case Default")
+            print("Default Case")
+        }
+    }
+    
+    func checkForCalendarAccess() {
+        let eventStore = EKEventStore()
+        switch EKEventStore.authorizationStatusForEntityType(EKEntityType.Event) {
+        case .Authorized:
+            // If you already have access to the Calendar
+            print()
+        case .Denied:
+            // If you were not given access to the Calendar
+            print()
+        case .NotDetermined:
+            // If it hasn't been asked to the user yet
+            
+            // Request permisson to the calendar
+            eventStore.requestAccessToEntityType(EKEntityType.Event, completion:
+                {(granted: Bool, error: NSError?) -> Void in
+                    if granted {
+                        
+                    } else {
+                        // If you were not given access to the Calendar by the user
+                    }
+            })
+        default:
+            print("Default Case")
         }
     }
     
     func saveEvent(toEventStore eventStore: EKEventStore, withStartdate startDate: NSDate, andEndDate endDate: NSDate) {
         
+        // Sets calendar events title to a default title if there is nothing set by the user
         let event = EKEvent(eventStore: eventStore)
         if (titleOutlet.text != eventTitleValue as? String && titleOutlet.text != nil) {
             event.title = titleOutlet.text // Sets event's title
@@ -386,18 +413,22 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
             event.title = "Event"
         }
         
-        event.startDate = startDate // Sets event's start date
-        event.endDate = endDate // Sets event's end date
-        event.calendar = eventStore.defaultCalendarForNewEvents // Selects default calendar
+        // The calendar event is added the default calendar
+        event.calendar = eventStore.defaultCalendarForNewEvents
+        event.startDate = startDate
+        event.endDate = endDate
         
-        var saveError : NSError? = nil // Initially sets errors to nil
+        // Initially sets errors to nil
+        var saveError : NSError? = nil
+        
+        // Commits changes and allows saveEvent to change error from nil
         do {
             try eventStore.saveEvent(event, span: .ThisEvent, commit: true)
         } catch let error as NSError {
             saveError = error
-        } // Commits changes and allows saveEvent to change error from nil
+        }
         
-        //// Following checks for errors and prints result to Debug Area ////
+        // Following checks for errors and prints result to Debug Area
         if saveError != nil {
             print("Saving event to Calendar failed with error: \(saveError!)")
         } else {
