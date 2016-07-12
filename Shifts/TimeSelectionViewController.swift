@@ -353,37 +353,17 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         self.navigationController?.popToRootViewControllerAnimated(true)
     }
     
+    // Abstracts away the implemenation for storing events
     func saveEvent(withStartDate startDate:NSDate , andEndDate endDate:NSDate) {
 
         let eventStore = EKEventStore()
 
         switch EKEventStore.authorizationStatusForEntityType(EKEntityType.Event) {
         case .Authorized:
-            let event = EKEvent(eventStore: eventStore)
-            
-            event.title = titleOutlet.text // Sets event's title
-            event.startDate = startDate // Sets event's start date
-            event.endDate = endDate // Sets event's end date
-            event.calendar = eventStore.defaultCalendarForNewEvents // Selects default calendar
-            
-            var saveError : NSError? = nil // Initially sets errors to nil
-            do {
-                try eventStore.saveEvent(event, span: .ThisEvent, commit: true)
-            } catch let error as NSError {
-                saveError = error
-            } // Commits changes and allows saveEvent to change error from nil
-            
-            //// Following checks for errors and prints result to Debug Area ////
-            if saveError != nil {
-                print("Saving event to Calendar failed with error: \(saveError!)")
-            } else {
-                print("Successfully saved '\(event.title)' to '\(event.calendar.title)' calendar.")
-            }
-
+            saveEvent(toEventStore: eventStore, withStartdate: startDate, andEndDate: endDate)
         case .Denied:
             print("Access denied")
         case .NotDetermined:
-            
             eventStore.requestAccessToEntityType(EKEntityType.Event, completion:
                 {(granted: Bool, error: NSError?) -> Void in
                     if granted {
@@ -417,6 +397,29 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
             })
         default:
             print("Case Default")
+        }
+    }
+    
+    func saveEvent(toEventStore eventStore: EKEventStore, withStartdate startDate: NSDate, andEndDate endDate: NSDate) {
+        let event = EKEvent(eventStore: eventStore)
+        
+        event.title = titleOutlet.text // Sets event's title
+        event.startDate = startDate // Sets event's start date
+        event.endDate = endDate // Sets event's end date
+        event.calendar = eventStore.defaultCalendarForNewEvents // Selects default calendar
+        
+        var saveError : NSError? = nil // Initially sets errors to nil
+        do {
+            try eventStore.saveEvent(event, span: .ThisEvent, commit: true)
+        } catch let error as NSError {
+            saveError = error
+        } // Commits changes and allows saveEvent to change error from nil
+        
+        //// Following checks for errors and prints result to Debug Area ////
+        if saveError != nil {
+            print("Saving event to Calendar failed with error: \(saveError!)")
+        } else {
+            print("Successfully saved '\(event.title)' to '\(event.calendar.title)' calendar.")
         }
     }
     
