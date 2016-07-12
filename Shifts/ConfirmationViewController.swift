@@ -21,6 +21,7 @@ class ConfirmationViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
     }
     
     override func viewDidAppear(animated: Bool) { 

@@ -1780,7 +1780,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.93559400134048254" green="0.42898518728237234" blue="0.4259592020818998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.42745098039215684" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="rhp-FA-VC5" firstAttribute="top" secondItem="6tx-97-VDp" secondAttribute="bottom" constant="15" id="HtP-dR-J6H"/>
                             <constraint firstItem="1yR-Yn-f6d" firstAttribute="leading" secondItem="RSn-VE-xOM" secondAttribute="leading" id="Jk3-9G-rd1"/>
