@@ -24,7 +24,6 @@
 		94978C6E1A6738CD00FA7CBA /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 94978C6D1A6738CD00FA7CBA /* Event.m */; };
 		94B41DE219F45BDF00544CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B41DE119F45BDF00544CD9 /* AppDelegate.swift */; };
 		94B41DE719F45BDF00544CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DE519F45BDF00544CD9 /* Main.storyboard */; };
-		94B41DE919F45BDF00544CD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DE819F45BDF00544CD9 /* Images.xcassets */; };
 		94B41DEC19F45BDF00544CD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B41DEA19F45BDF00544CD9 /* LaunchScreen.xib */; };
 		94C0F48D1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */; };
 		94C0F4911ACCB63E00E9F26A /* Blue UI Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */; };
@@ -36,6 +35,8 @@
 		94E686A61D2E9D990088AF9D /* EndingMinuteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E686A51D2E9D990088AF9D /* EndingMinuteViewController.swift */; };
 		94E686A81D2E9DA70088AF9D /* EndingAbberviationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E686A71D2E9DA70088AF9D /* EndingAbberviationViewController.swift */; };
 		94F678921A9ECA7D009E588D /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */; };
+		94FA10121D34A8B0005A3A86 /* circleplus.png in Resources */ = {isa = PBXBuildFile; fileRef = 94FA10111D34A8B0005A3A86 /* circleplus.png */; };
+		94FA10141D3527D3005A3A86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FA10131D3527D3005A3A86 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,7 +71,6 @@
 		94B41DE019F45BDF00544CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B41DE119F45BDF00544CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94B41DE619F45BDF00544CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94B41DE819F45BDF00544CD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94B41DEB19F45BDF00544CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		94B41DF619F45BDF00544CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B41DF719F45BDF00544CD9 /* ShiftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsTests.swift; sourceTree = "<group>"; };
@@ -84,6 +84,8 @@
 		94E686A51D2E9D990088AF9D /* EndingMinuteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndingMinuteViewController.swift; sourceTree = "<group>"; };
 		94E686A71D2E9DA70088AF9D /* EndingAbberviationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndingAbberviationViewController.swift; sourceTree = "<group>"; };
 		94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		94FA10111D34A8B0005A3A86 /* circleplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleplus.png; sourceTree = "<group>"; };
+		94FA10131D3527D3005A3A86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				94C0F48C1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png */,
 				94C0F4901ACCB63E00E9F26A /* Blue UI Button.png */,
 				94D90C971ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png */,
+				94FA10111D34A8B0005A3A86 /* circleplus.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,7 +178,6 @@
 				94E6869A1D2E9CAA0088AF9D /* Model */,
 				94E686991D2E9CA90088AF9D /* Controllers */,
 				94E686981D2E9CA70088AF9D /* Views */,
-				94B41DE819F45BDF00544CD9 /* Images.xcassets */,
 				94B41DDF19F45BDF00544CD9 /* Supporting Files */,
 			);
 			name = Events;
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				946011131A1EAAC30007E9F6 /* BridgingHeader.h */,
+				94FA10131D3527D3005A3A86 /* Images.xcassets */,
 				94B41DE119F45BDF00544CD9 /* AppDelegate.swift */,
 				94978C661A67336600FA7CBA /* From 'Events' */,
 				946010FC1A1EA9C20007E9F6 /* RSDayFlow */,
@@ -325,10 +328,11 @@
 			files = (
 				94C0F48D1ACCB18900E9F26A /* Shifts App Icon - iPhone 5 and 6.png in Resources */,
 				94B41DE719F45BDF00544CD9 /* Main.storyboard in Resources */,
+				94FA10141D3527D3005A3A86 /* Images.xcassets in Resources */,
 				94B41DEC19F45BDF00544CD9 /* LaunchScreen.xib in Resources */,
 				94D90C981ACFA03A00812482 /* Shifts App Icon - iPhone 5 and 6 Two colors.png in Resources */,
 				94C0F4911ACCB63E00E9F26A /* Blue UI Button.png in Resources */,
-				94B41DE919F45BDF00544CD9 /* Images.xcassets in Resources */,
+				94FA10121D34A8B0005A3A86 /* circleplus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

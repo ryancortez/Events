@@ -94,6 +94,12 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         titleOutlet.textColor = UIColor.darkGrayColor()
     }
     
+    func textViewDidBeginEditing(textView: UITextView) {
+        if (titleOutlet.text == "Add title here"){
+            titleOutlet.text = ""
+        }
+    }
+    
     func removeTimers() {
         timer.invalidate()
     }
