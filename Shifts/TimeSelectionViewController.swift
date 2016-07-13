@@ -399,7 +399,7 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         
         // Sets calendar events title to a default title if there is nothing set by the user
         let event = EKEvent(eventStore: eventStore)
-        if (titleOutlet.text != eventTitleValue as? String && titleOutlet.text != nil) {
+        if (titleOutlet.text != nil) {
             event.title = titleOutlet.text // Sets event's title
         } else {
             event.title = "Event"
