@@ -1511,6 +1511,7 @@
                             <constraint firstItem="gDW-t5-k5h" firstAttribute="leading" secondItem="ruX-tL-RNt" secondAttribute="leading" id="jhU-Q8-cU6"/>
                             <constraint firstItem="2gL-OK-b2j" firstAttribute="trailing" secondItem="pmB-IX-Xlx" secondAttribute="trailing" id="lJP-be-6Wa"/>
                             <constraint firstItem="ruX-tL-RNt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WQW-ul-ZOp" secondAttribute="leadingMargin" constant="10" id="mV2-TZ-kWc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pmB-IX-Xlx" secondAttribute="trailing" id="oaJ-db-wj2"/>
                             <constraint firstItem="pmB-IX-Xlx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="WvA-CO-XSo" secondAttribute="bottom" constant="50" id="ojl-xg-bna"/>
                             <constraint firstItem="HDQ-Tp-jPq" firstAttribute="top" secondItem="WQW-ul-ZOp" secondAttribute="top" id="p6I-8h-up0"/>
                             <constraint firstItem="hc6-PH-tPX" firstAttribute="trailing" secondItem="Bjp-4N-huw" secondAttribute="trailing" id="pre-4b-3js"/>
