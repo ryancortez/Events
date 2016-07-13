@@ -22,11 +22,14 @@ class ConfirmationViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBarHidden = true
-        UIApplication.sharedApplication().statusBarStyle = .LightContent
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: #selector(ConfirmationViewController.startOver), userInfo: nil, repeats: false)
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
  }
