@@ -10,17 +10,5 @@ import Foundation
 import UIKit
 
 class AddToCalendarViewController: TimeSelectionViewController {
-    
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        setupTitleTextView()
-    }
-    
-    func setupTitleTextView() {
-        if (titleOutlet != nil) {
-            if (titleOutlet.text == "Add title here"){
-                titleOutlet.textColor = customGraycolor
-            }
-        }
-    }
+
 }
