@@ -431,9 +431,10 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
     
     func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool{
         if text == "\n" {
+            self.saveData()
             titleOutlet.resignFirstResponder()
             eventTitleValue = titleOutlet.text
-            self.saveData()
+            titleOutlet.flashScrollIndicators()
             return false
         }
         return true
