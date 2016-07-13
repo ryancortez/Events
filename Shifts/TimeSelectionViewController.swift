@@ -50,7 +50,6 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
         refreshDayLabel()
         setDefaultStartTimeAndEndTimeLabels()
         refreshTimeLabels()
-        setupTitleTextView()
     }
     
     
@@ -78,15 +77,6 @@ class TimeSelectionViewController: UIViewController, UITextViewDelegate {
             })
         default:
             print("Default Case")
-        }
-    }
-
-    
-    func setupTitleTextView() {
-        if (titleOutlet != nil) {
-            if (titleOutlet.text == "Add title here"){
-                titleOutlet.textColor = customGraycolor
-            }
         }
     }
     

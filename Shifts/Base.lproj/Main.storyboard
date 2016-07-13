@@ -1540,10 +1540,10 @@
             </objects>
             <point key="canvasLocation" x="730" y="1216"/>
         </scene>
-        <!--Confirmation View Controller-->
+        <!--Success Confirmation View Controller-->
         <scene sceneID="vIt-YC-kWP">
             <objects>
-                <viewController id="aTL-bF-Vli" customClass="ConfirmationViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aTL-bF-Vli" customClass="SuccessConfirmationViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GTl-sp-cIL"/>
                         <viewControllerLayoutGuide type="bottom" id="cEY-zg-mov"/>

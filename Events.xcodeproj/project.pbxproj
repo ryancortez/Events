@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9414F6B91D36860C00B40909 /* SuccessConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9414F6B81D36860C00B40909 /* SuccessConfirmationViewController.swift */; };
 		942FCA301A390771007A3886 /* DatePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */; };
 		9460110C1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 946010FE1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m */; };
 		9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011011A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9414F6B81D36860C00B40909 /* SuccessConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessConfirmationViewController.swift; sourceTree = "<group>"; };
 		942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
 		944471681B519D3200FD3335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		946010FD1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+RSDFAdditions.h"; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */,
 				947F99191A1DC87600C55B30 /* NavigationViewController.swift */,
 				94F678911A9ECA7D009E588D /* ConfirmationViewController.swift */,
+				9414F6B81D36860C00B40909 /* SuccessConfirmationViewController.swift */,
 				94E6869B1D2E9CF10088AF9D /* Cells */,
 			);
 			name = Controllers;
@@ -358,6 +361,7 @@
 				9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */,
 				9460110E1A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m in Sources */,
 				947F7A9E1D317395009FE17B /* AddToCalendarViewController.swift in Sources */,
+				9414F6B91D36860C00B40909 /* SuccessConfirmationViewController.swift in Sources */,
 				9460110F1A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m in Sources */,
 				94978C691A67337800FA7CBA /* AddToCalendarTableViewController.m in Sources */,
 				94978C6E1A6738CD00FA7CBA /* Event.m in Sources */,
