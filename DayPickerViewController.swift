@@ -60,10 +60,6 @@ class DayPickerViewController: UIViewController, RSDFDatePickerViewDelegate, RSD
         
     }
     
-    func createCalendarAccessLabel() {
-        
-    }
-    
     func checkForCalendarAccess() {
         let eventStore = EKEventStore()
         switch EKEventStore.authorizationStatusForEntityType(EKEntityType.Event) {
