@@ -20,7 +20,6 @@
 		947F991A1A1DC87600C55B30 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F99191A1DC87600C55B30 /* NavigationViewController.swift */; };
 		9493A9821A2BF5B30057022C /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493A9811A2BF5B30057022C /* DayCell.swift */; };
 		94978C651A672EAD00FA7CBA /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */; };
-		94978C691A67337800FA7CBA /* AddToCalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94978C681A67337800FA7CBA /* AddToCalendarTableViewController.m */; };
 		94978C6B1A6733F200FA7CBA /* TimeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94978C6A1A6733F200FA7CBA /* TimeSelectionViewController.swift */; };
 		94978C6E1A6738CD00FA7CBA /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 94978C6D1A6738CD00FA7CBA /* Event.m */; };
 		94B41DE219F45BDF00544CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B41DE119F45BDF00544CD9 /* AppDelegate.swift */; };
@@ -64,8 +63,6 @@
 		947F99191A1DC87600C55B30 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = ../NavigationViewController.swift; sourceTree = "<group>"; };
 		9493A9811A2BF5B30057022C /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayCell.swift; path = ../DayCell.swift; sourceTree = "<group>"; };
 		94978C641A672EAD00FA7CBA /* DayPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayPickerViewController.swift; path = ../DayPickerViewController.swift; sourceTree = "<group>"; };
-		94978C671A67337800FA7CBA /* AddToCalendarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToCalendarTableViewController.h; sourceTree = "<group>"; };
-		94978C681A67337800FA7CBA /* AddToCalendarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToCalendarTableViewController.m; sourceTree = "<group>"; };
 		94978C6A1A6733F200FA7CBA /* TimeSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelectionViewController.swift; sourceTree = "<group>"; };
 		94978C6C1A6738CD00FA7CBA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		94978C6D1A6738CD00FA7CBA /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
@@ -146,8 +143,6 @@
 			children = (
 				94978C6C1A6738CD00FA7CBA /* Event.h */,
 				94978C6D1A6738CD00FA7CBA /* Event.m */,
-				94978C671A67337800FA7CBA /* AddToCalendarTableViewController.h */,
-				94978C681A67337800FA7CBA /* AddToCalendarTableViewController.m */,
 			);
 			name = "From 'Events'";
 			sourceTree = "<group>";
@@ -180,6 +175,8 @@
 				94E6869A1D2E9CAA0088AF9D /* Model */,
 				94E686991D2E9CA90088AF9D /* Controllers */,
 				94E686981D2E9CA70088AF9D /* Views */,
+				94978C661A67336600FA7CBA /* From 'Events' */,
+				946010FC1A1EA9C20007E9F6 /* RSDayFlow */,
 				94B41DDF19F45BDF00544CD9 /* Supporting Files */,
 			);
 			name = Events;
@@ -192,8 +189,6 @@
 				946011131A1EAAC30007E9F6 /* BridgingHeader.h */,
 				94FA10131D3527D3005A3A86 /* Images.xcassets */,
 				94B41DE119F45BDF00544CD9 /* AppDelegate.swift */,
-				94978C661A67336600FA7CBA /* From 'Events' */,
-				946010FC1A1EA9C20007E9F6 /* RSDayFlow */,
 				94B41DE019F45BDF00544CD9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -363,7 +358,6 @@
 				947F7A9E1D317395009FE17B /* AddToCalendarViewController.swift in Sources */,
 				9414F6B91D36860C00B40909 /* SuccessConfirmationViewController.swift in Sources */,
 				9460110F1A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m in Sources */,
-				94978C691A67337800FA7CBA /* AddToCalendarTableViewController.m in Sources */,
 				94978C6E1A6738CD00FA7CBA /* Event.m in Sources */,
 				9493A9821A2BF5B30057022C /* DayCell.swift in Sources */,
 				94978C651A672EAD00FA7CBA /* DayPickerViewController.swift in Sources */,

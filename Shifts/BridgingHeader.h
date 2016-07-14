@@ -15,7 +15,6 @@
 #import "RSDFDatePickerDayCell.h"
 #import "RSDFDatePickerDaysOfWeekView.h"
 #import "RSDFDatePickerMonthHeader.h"
-#import "AddToCalendarTableViewController.h"
 #import "Event.h"
 
 #endif
