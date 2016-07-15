@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9414F6B91D36860C00B40909 /* SuccessConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9414F6B81D36860C00B40909 /* SuccessConfirmationViewController.swift */; };
-		942FCA301A390771007A3886 /* DatePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */; };
 		9460110C1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 946010FE1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m */; };
 		9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011011A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m */; };
 		9460110E1A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 946011031A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m */; };
@@ -41,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		9414F6B81D36860C00B40909 /* SuccessConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessConfirmationViewController.swift; sourceTree = "<group>"; };
-		942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
 		944471681B519D3200FD3335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		946010FD1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+RSDFAdditions.h"; sourceTree = "<group>"; };
 		946010FE1A1EA9C20007E9F6 /* NSCalendar+RSDFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+RSDFAdditions.m"; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				946011011A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m */,
 				946011021A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.h */,
 				946011031A1EA9C20007E9F6 /* RSDFDatePickerCollectionViewLayout.m */,
-				942FCA2F1A390771007A3886 /* DatePickerCollectionViewLayout.swift */,
 				946011041A1EA9C20007E9F6 /* RSDFDatePickerDayCell.h */,
 				946011051A1EA9C20007E9F6 /* RSDFDatePickerDayCell.m */,
 				946011061A1EA9C20007E9F6 /* RSDFDatePickerDaysOfWeekView.h */,
@@ -350,7 +347,6 @@
 				946011121A1EA9C20007E9F6 /* RSDFDatePickerView.m in Sources */,
 				94E686A61D2E9D990088AF9D /* EndingMinuteViewController.swift in Sources */,
 				94F678921A9ECA7D009E588D /* ConfirmationViewController.swift in Sources */,
-				942FCA301A390771007A3886 /* DatePickerCollectionViewLayout.swift in Sources */,
 				94978C6B1A6733F200FA7CBA /* TimeSelectionViewController.swift in Sources */,
 				94E6869D1D2E9D2C0088AF9D /* StartHourViewController.swift in Sources */,
 				9460110D1A1EA9C20007E9F6 /* RSDFDatePickerCollectionView.m in Sources */,

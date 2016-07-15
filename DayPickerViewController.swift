@@ -27,10 +27,9 @@ class DayPickerViewController: UIViewController, RSDFDatePickerViewDelegate, RSD
         let datePickerView = RSDFDatePickerView(frame: self.view.bounds)
         datePickerView.delegate = self
         datePickerView.dataSource = self
+        datePickerView.selectDate(dateFromRSDF)
         self.view.addSubview(datePickerView)
     }
-    
-
     
     func createCalendarAccessDeniedView() {
         enum AccessDeniedViewSize: CGFloat {
@@ -86,7 +85,6 @@ class DayPickerViewController: UIViewController, RSDFDatePickerViewDelegate, RSD
             print("Default Case")
         }
     }
-
     
     func datePickerView(view: RSDFDatePickerView!, didSelectDate date: NSDate!) {
         dateFromRSDF = date

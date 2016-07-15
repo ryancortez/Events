@@ -192,6 +192,10 @@ class AddToCalendarViewController: TimeSelectionViewController, UITextFieldDeleg
     }
     
     @IBAction func startOverButton(sender: AnyObject) {
+        let dayPickerController = self.navigationController?.viewControllers.first as! DayPickerViewController
+        if let date = dateFromRSDF {
+            dayPickerController.dateFromRSDF = date
+        }
         self.navigationController?.popToRootViewControllerAnimated(true)
     }
 
