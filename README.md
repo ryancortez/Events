@@ -4,4 +4,4 @@
 
 ![](http://ryancortez.com/Events%20Icon.png)
 
-![](http://ryancortez.com/Events-9to5-GIF)
+![](http://ryancortez.com/Events-9to5-GIF.gif)
