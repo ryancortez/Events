@@ -26,9 +26,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.68708598613739014" green="0.68706536293029785" blue="0.68707704544067383" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="178" y="280" width="164" height="67"/>
-                                </variation>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
@@ -41,9 +38,6 @@
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="rI8-hw-4xg">
                                 <rect key="frame" x="236" y="168" width="160" height="65"/>
@@ -54,9 +48,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iit-5I-7pF">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -235,9 +226,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dcN-IX-9jZ">
                                 <rect key="frame" x="404" y="168" width="176" height="65"/>
@@ -247,9 +235,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
@@ -435,6 +420,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-50" y="-23" width="0.0" height="0.0"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxI-CA-hPH">
                                 <rect key="frame" x="304" y="448" width="276" height="132"/>
@@ -487,9 +475,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="178" y="280" width="164" height="67"/>
-                                </variation>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
@@ -502,9 +487,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="02v-Vi-5Wp">
                                 <rect key="frame" x="20" y="72" width="560" height="88"/>
@@ -513,9 +495,6 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
-                                </variation>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85.5" y="72" width="229" height="153"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="sov-Cs-dp5">
@@ -527,9 +506,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="248" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="8zj-jW-Iyh">
                                 <rect key="frame" x="404" y="168" width="176" height="65"/>
@@ -539,9 +515,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
@@ -639,9 +612,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="39"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="178" y="280" width="164" height="67"/>
-                                </variation>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
@@ -657,9 +627,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.1897625688" green="1" blue="0.45647647699999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="18" y="301" width="160" height="65"/>
                                 </variation>
@@ -672,9 +639,6 @@
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="qut-XY-6nS">
                                 <rect key="frame" x="239.5" y="168" width="160" height="65"/>
@@ -685,9 +649,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="18" y="235" width="160" height="65"/>
                                 </variation>
@@ -867,9 +828,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="39"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="186" y="235" width="172" height="65"/>
                                 </variation>
@@ -1066,9 +1024,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gOM-eb-mov">
                                 <rect key="frame" x="20" y="72" width="560" height="89"/>
@@ -1081,9 +1036,6 @@
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="v54-Nn-WR5">
                                 <rect key="frame" x="251" y="169" width="145" height="65"/>
@@ -1094,18 +1046,12 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="Qwh-c1-pkF">
                                 <rect key="frame" x="404" y="235" width="176" height="65"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="178" y="280" width="164" height="67"/>
-                                </variation>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
@@ -1118,9 +1064,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
@@ -1252,9 +1195,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="178" y="280" width="164" height="67"/>
-                                </variation>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
@@ -1267,9 +1207,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.37485121799999999" green="0.93292350869999996" blue="0.5362943872" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="wT4-MS-WL3">
                                 <rect key="frame" x="404" y="168" width="176" height="65"/>
@@ -1279,9 +1216,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
@@ -1297,9 +1231,6 @@
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="boT-pp-WVj">
                                 <rect key="frame" x="236" y="168" width="160" height="65"/>
@@ -1310,9 +1241,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1387,9 +1315,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ruX-tL-RNt">
                                 <rect key="frame" x="251" y="289" width="145" height="65"/>
@@ -1400,9 +1325,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="hc6-PH-tPX">
                                 <rect key="frame" x="404" y="355" width="176" height="55"/>
@@ -1412,9 +1334,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="178" y="280" width="164" height="67"/>
-                                </variation>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
@@ -1458,9 +1377,6 @@
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
                                 </variation>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85.5" y="72" width="229" height="153"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="249" text="00:00 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="t4C-bb-wuN">
                                 <rect key="frame" x="404" y="289" width="176" height="65"/>
@@ -1470,9 +1386,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
@@ -1620,9 +1533,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53.5" y="280" width="109.5" height="67"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday, September 31, 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yQd-Tp-JkJ">
                                 <rect key="frame" x="20" y="72" width="560" height="88"/>
@@ -1631,9 +1541,6 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" ambiguous="YES">
                                     <rect key="frame" x="26" y="271" width="548" height="36"/>
-                                </variation>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="85.5" y="72" width="229" height="153"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Start Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="gtP-cN-Hes">
@@ -1645,9 +1552,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.3096341386" green="0.71706271269999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="233" width="109.5" height="47"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBw-Jd-B6R">
                                 <rect key="frame" x="20" y="307" width="560" height="133"/>
@@ -1671,9 +1575,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="178" y="280" width="164" height="67"/>
-                                </variation>
                                 <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="620" y="253" width="164" height="55"/>
                                 </variation>
@@ -1686,9 +1587,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="0.74043939920000001" green="0.74043939920000001" blue="0.74043939920000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="178" y="188" width="164" height="34"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="378" y="400" width="164" height="47"/>
                                 </variation>
