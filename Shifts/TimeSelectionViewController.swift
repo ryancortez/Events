@@ -202,8 +202,7 @@ class TimeSelectionViewController: UIViewController {
         let aNumber = formatter.numberFromString(buttonTitle!)
         
         // Change the model by adding the button's title data
-        shiftInfo.startMinute = aNumber
-        blinkTextInLabel(startTimeLabel, withRange: NSMakeRange(3, 2))
+        shiftInfo.startMinute = aNumber 
         
         performSegueWithIdentifier("startMinuteToAbbreviation", sender: sender)
     }
