@@ -135,13 +135,13 @@
 			path = RSDayFlow;
 			sourceTree = "<group>";
 		};
-		94978C661A67336600FA7CBA /* From 'Events' */ = {
+		94978C661A67336600FA7CBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				94978C6C1A6738CD00FA7CBA /* Event.h */,
 				94978C6D1A6738CD00FA7CBA /* Event.m */,
 			);
-			name = "From 'Events'";
+			name = Model;
 			sourceTree = "<group>";
 		};
 		94B41DD319F45BDF00544CD9 = {
@@ -169,10 +169,9 @@
 		94B41DDE19F45BDF00544CD9 /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				94E6869A1D2E9CAA0088AF9D /* Model */,
 				94E686991D2E9CA90088AF9D /* Controllers */,
 				94E686981D2E9CA70088AF9D /* Views */,
-				94978C661A67336600FA7CBA /* From 'Events' */,
+				94978C661A67336600FA7CBA /* Model */,
 				946010FC1A1EA9C20007E9F6 /* RSDayFlow */,
 				94B41DDF19F45BDF00544CD9 /* Supporting Files */,
 			);
@@ -229,13 +228,6 @@
 				94E6869B1D2E9CF10088AF9D /* Cells */,
 			);
 			name = Controllers;
-			sourceTree = "<group>";
-		};
-		94E6869A1D2E9CAA0088AF9D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		94E6869B1D2E9CF10088AF9D /* Cells */ = {

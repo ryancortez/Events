@@ -93,7 +93,6 @@ class DayPickerViewController: UIViewController, RSDFDatePickerViewDelegate, RSD
     }
     
     func goToSettingsButtonPressed(sender: UIButton!) {
-        
         let url:NSURL! = NSURL(string: UIApplicationOpenSettingsURLString)
         UIApplication.sharedApplication().openURL(url)
     }
